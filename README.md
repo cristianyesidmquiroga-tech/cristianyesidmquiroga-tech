@@ -136,13 +136,26 @@ Recoge estaciones meteorológicas, alertas hidrológicas e imágenes satelitales
   <a href="https://www.postgresql.org"><img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL" title="PostgreSQL"></a> <a href="https://www.mysql.com"><img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL" title="MySQL"></a> <a href="https://redis.io"><img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis" title="Redis"></a> <a href="https://supabase.com"><img src="https://skillicons.dev/icons?i=supabase" width="48" height="48" alt="Supabase" title="Supabase"></a> <a href="https://www.docker.com"><img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" title="Docker"></a> <a href="https://nginx.org"><img src="https://skillicons.dev/icons?i=nginx" width="48" height="48" alt="Nginx" title="Nginx"></a> <a href="https://github.com"><img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub" title="GitHub"></a> <a href="https://github.com/features/actions"><img src="https://skillicons.dev/icons?i=githubactions" width="48" height="48" alt="GitHub Actions" title="GitHub Actions"></a> <a href="https://www.kernel.org"><img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" title="Linux"></a>
 </p>
 
-| Área | Herramientas |
+| Tecnología | Qué he hecho con ella |
 |---|---|
-| Backend | Spring Boot 3 (Security, JPA), Flask, SQLAlchemy, REST, JWT, RBAC, límite de peticiones, OpenAPI |
-| Frontend | React 19, Vite, TypeScript, Tailwind CSS, Context API, hooks propios |
-| Datos | PostgreSQL, MySQL, Redis, Supabase (RLS), migraciones con Flyway y Alembic |
-| DevOps | Docker, Docker Compose, GitHub Actions, Coolify, Traefik, Nginx |
-| Calidad | JUnit 5, Mockito, Testcontainers, JaCoCo, Pytest, Vitest, listas de chequeo basadas en OWASP |
+| [Java 21](https://dev.java) | API REST de control de acceso con 73 endpoints y CRUD de cine con Servlets y JSP. |
+| [Spring Boot 3](https://spring.io/projects/spring-boot) | Seguridad con JWT y roles, JPA, validación, correo y documentación OpenAPI en la API de control de acceso. |
+| [Python](https://www.python.org) | Sistemas completos en Flask, procesos que recogen datos del clima y reportes en Excel y PDF. |
+| [Flask](https://flask.palletsprojects.com) | Control de acceso, monitoreo del clima, tienda con inventario y un sistema de facturación en equipo. |
+| [React 19](https://react.dev) | Frontend del control de acceso (rutas protegidas, escáner QR) y panel de la tienda de ropa. |
+| [TypeScript](https://www.typescriptlang.org) | Tienda de ropa con panel administrativo y roles. |
+| [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) | Vistas interactivas del sistema de carnets y lógica de los frontends. |
+| [Vite](https://vite.dev) | Compilación y servidor de desarrollo de los frontends en React. |
+| [Tailwind CSS](https://tailwindcss.com) | Estilos de la tienda de ropa (versión 4). |
+| [PostgreSQL](https://www.postgresql.org) | Base de datos de mis sistemas principales, con migraciones versionadas. |
+| [MySQL](https://www.mysql.com) | CRUD de cine en Java EE. |
+| [Redis](https://redis.io) | Caché del sistema de monitoreo del clima. |
+| [Supabase](https://supabase.com) | Autenticación, almacenamiento de imágenes y permisos con Row Level Security en la tienda. |
+| [Docker](https://www.docker.com) | Cada proyecto se empaqueta con Dockerfile y Compose para desplegarlo en Coolify. |
+| [Nginx](https://nginx.org) | Sirve la tienda de ropa ya compilada, con cabeceras de seguridad. |
+| [GitHub](https://github.com) | Todos mis repositorios, con README y descripción. |
+| [GitHub Actions](https://github.com/features/actions) | Pruebas automáticas en cada push en la API de Spring Boot y en el sistema Flask. |
+| [Linux](https://www.kernel.org) | Base de las imágenes Docker de mis proyectos. |
 
 ## Ahora mismo
 
