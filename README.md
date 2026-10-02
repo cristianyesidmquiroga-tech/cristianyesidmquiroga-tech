@@ -54,10 +54,14 @@ I build complete web systems: a secure REST API, a React front end, a PostgreSQL
 
 ## How I work
 
-- Requirements first, then code.
-- Security by default: hashed passwords, rate limiting, audit logs, secrets outside the repo.
-- Every change tested; every project documented well enough for someone else to run it with `docker compose up`.
-- Regular progress updates and demos.
+I think before I code. Every project follows the same path:
+
+1. **Analyze.** What needs to be done, for whom and why. If something is unclear, I ask.
+2. **Research.** I look for ideas, see how others solved it and compare options before choosing.
+3. **Plan and verify the plan.** I build the plan and check that it really works before building. Changing it on paper is cheap; changing it after it is coded is not.
+4. **Build in parts**, with tests from the first module.
+5. **Audit every view.** Each screen goes through a security review: role permissions, server-side validation, injection, sessions and cookies, rate limiting and secrets handling. It is also tested with every user profile.
+6. **Document and deliver** so anyone can run the project with `docker compose up`.
 
 ## Currently
 
@@ -104,10 +108,14 @@ Construyo sistemas web completos: una API REST segura, un frontend en React, un 
 
 ## Cómo trabajo
 
-- Primero los requisitos, después el código.
-- Seguridad por defecto: contraseñas con hash, límite de peticiones, auditoría y secretos fuera del repositorio.
-- Todo cambio con pruebas y cada proyecto documentado para que otra persona lo corra con `docker compose up`.
-- Avances y demos con regularidad.
+Antes de escribir código, pienso. Todos mis proyectos siguen el mismo camino:
+
+1. **Analizo.** Qué hay que hacer, para quién y por qué. Si algo no está claro, pregunto.
+2. **Investigo.** Busco ideas, miro cómo lo resuelven otros y comparo opciones antes de elegir.
+3. **Planeo y verifico el plan.** Armo el plan y compruebo que de verdad funciona antes de construir. Cambiarlo en el papel es barato; cambiarlo ya programado, no.
+4. **Construyo por partes**, con pruebas desde el primer módulo.
+5. **Audito cada vista.** Cada pantalla pasa por una revisión de seguridad: permisos por rol, validación en el servidor, inyección, sesiones y cookies, límite de peticiones y manejo de secretos. Además se prueba con todos los perfiles de usuario.
+6. **Documento y entrego** para que otra persona pueda correr el proyecto con `docker compose up`.
 
 ## Ahora mismo
 
