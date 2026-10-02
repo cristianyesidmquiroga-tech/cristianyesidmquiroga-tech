@@ -73,7 +73,7 @@ Collects weather stations, hydrological alerts and daily NASA satellite imagery,
 
 ### Right now
 
-I study at SENA (ADSO) in the afternoons, working on my spoken English, and building a FastAPI service for agricultural accounting.
+I study at SENA (ADSO) in the afternoons, I am working on my spoken English and I am building a FastAPI service for agricultural accounting.
 
 ### Contact
 
