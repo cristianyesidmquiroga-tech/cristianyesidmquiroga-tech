@@ -61,6 +61,12 @@ Landing page rendered from the database, hidden admin route with roles and an in
 **[Weather Monitoring](https://github.com/cristianyesidmquiroga-tech/Sistema_Clima)** · Flask, PostgreSQL, Redis, Docker Compose
 Collects weather stations, hydrological alerts and daily NASA satellite imagery, and publishes a dashboard, a rain map and a weekly regional report with PDF and Excel exports. Seven containers with memory and CPU limits.
 
+**[Agricultural Observatory of Gran Santander](https://observatoriogransantander.co/)** · Python, Django 5.2, PostgreSQL, Redis, Docker (live site, built for ASPROVEL)
+Public site with a map, indicators and downloadable CSV and XLSX data. More than 5,500 producers visited in 69 municipalities. One privacy module publishes only municipality aggregates, never personal data, and is covered by tests.
+
+**[AgroGestión](https://agrogestion.proyecto.sbs/)** · FastAPI, PostgreSQL 16, SQLAlchemy 2.0, React, Flutter (live site)
+Crop and farm management: plantings, labour, inputs, harvests and cash flow, usable from a phone even without signal. [Code](https://github.com/cristianyesidmquiroga-tech/agrogestion).
+
 ### Stack
 
 | Area | Tools |
@@ -73,7 +79,7 @@ Collects weather stations, hydrological alerts and daily NASA satellite imagery,
 
 ### Right now
 
-I study at SENA (ADSO) in the afternoons, I am working on my spoken English and I am building a FastAPI service for agricultural accounting.
+I study at SENA (ADSO) in the afternoons and I am looking for my work placement (etapa práctica) or an apprenticeship contract, available from 26 April 2027. I am learning blockchain (smart contracts with Hardhat and OpenZeppelin) and I run my own VPS to publish my projects.
 
 ### Contact
 
@@ -129,6 +135,12 @@ Landing renderizada desde la base de datos, ruta de administración oculta con r
 **[Monitoreo del clima](https://github.com/cristianyesidmquiroga-tech/Sistema_Clima)** · Flask, PostgreSQL, Redis, Docker Compose
 Recoge estaciones meteorológicas, alertas hidrológicas e imágenes satelitales diarias de la NASA, y publica un panel, un mapa de lluvias y un reporte semanal de la región con exportación a PDF y Excel. Siete contenedores con límites de memoria y CPU.
 
+**[Observatorio Agropecuario del Gran Santander](https://observatoriogransantander.co/)** · Python, Django 5.2, PostgreSQL, Redis, Docker (sitio en línea, hecho para ASPROVEL)
+Sitio público con mapa, indicadores y datos descargables en CSV y XLSX. Más de 5.500 productores visitados en 69 municipios. Un único módulo de privacidad publica solo agregados por municipio, nunca datos de personas, y está cubierto por pruebas.
+
+**[AgroGestión](https://agrogestion.proyecto.sbs/)** · FastAPI, PostgreSQL 16, SQLAlchemy 2.0, React, Flutter (sitio en línea)
+Gestión de cultivos y finca: siembras, mano de obra, insumos, cosechas y flujo de caja, desde el celular y también sin señal. [Código](https://github.com/cristianyesidmquiroga-tech/agrogestion).
+
 ## Stack
 
 <p>
@@ -159,7 +171,7 @@ Recoge estaciones meteorológicas, alertas hidrológicas e imágenes satelitales
 
 ## Ahora mismo
 
-Estudio en el SENA (ADSO) por las tardes, mejoro mi inglés hablado y construyo un servicio en FastAPI para contabilidad agrícola.
+Estudio en el SENA (ADSO) por las tardes y busco mi etapa práctica o un contrato de aprendizaje, desde el 26 de abril de 2027. Estoy aprendiendo blockchain (contratos inteligentes con Hardhat y OpenZeppelin) y administro mi propio VPS para publicar mis proyectos.
 
 ## Contacto
 
