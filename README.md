@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="mailto:cristianyesidmquiroga@gmail.com"><img src="https://img.shields.io/badge/Correo-contacto-0b2a4a?style=flat-square&logo=gmail&logoColor=white" alt="Correo"></a>
-  <img src="https://img.shields.io/badge/Estado-busco%20etapa%20pr%C3%A1ctica%20(abril%202027)-1a7f37?style=flat-square" alt="Busco etapa práctica desde abril de 2027">
+  <img src="https://img.shields.io/badge/Estado-busco%20junior%2C%20pr%C3%A1cticas%20o%20aprendizaje-1a7f37?style=flat-square" alt="Busco puesto junior, prácticas o aprendizaje">
   <img src="https://img.shields.io/badge/Respuesta-en%2024h-1a5fb4?style=flat-square" alt="Respuesta en 24 horas">
 </p>
 
@@ -79,7 +79,7 @@ Crop and farm management: plantings, labour, inputs, harvests and cash flow, usa
 
 ### Right now
 
-I study at SENA (ADSO) in the afternoons and I am looking for my work placement (etapa práctica) or an apprenticeship contract, available from 26 April 2027. I am learning blockchain (smart contracts with Hardhat and OpenZeppelin) and I run my own VPS to publish my projects.
+I study at SENA (ADSO) in the afternoons and I am looking for a junior developer role, my work placement (etapa práctica) or an apprenticeship contract. I can work mornings now, from 7:00 to 11:00 Colombia time (13:00-17:00 in Spain in winter, 14:00-18:00 in summer), and full time from 26 April 2027. Remote, or on-site in Bogotá or Bucaramanga. I am learning blockchain (smart contracts with Hardhat and OpenZeppelin) and I run my own VPS to publish my projects.
 
 ### Contact
 
@@ -171,7 +171,7 @@ Gestión de cultivos y finca: siembras, mano de obra, insumos, cosechas y flujo 
 
 ## Ahora mismo
 
-Estudio en el SENA (ADSO) por las tardes y busco mi etapa práctica o un contrato de aprendizaje, desde el 26 de abril de 2027. Estoy aprendiendo blockchain (contratos inteligentes con Hardhat y OpenZeppelin) y administro mi propio VPS para publicar mis proyectos.
+Estudio en el SENA (ADSO) por las tardes y busco un puesto como desarrollador junior, mi etapa práctica o un contrato de aprendizaje. Desde ya puedo trabajar por las mañanas, de 7:00 a 11:00 hora de Colombia (13:00-17:00 en España en invierno y 14:00-18:00 en verano), y tengo tiempo completo desde el 26 de abril de 2027. Remoto, o presencial en Bogotá o Bucaramanga. Estoy aprendiendo blockchain (contratos inteligentes con Hardhat y OpenZeppelin) y administro mi propio VPS para publicar mis proyectos.
 
 ## Contacto
 
