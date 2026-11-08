@@ -1,10 +1,10 @@
 <h1 align="center">Cristian Muñoz</h1>
 <p align="center"><b>Desarrollador Full-Stack</b> · Java (Spring Boot) · Python (Flask) · React · PostgreSQL · Docker</p>
-<p align="center">Bogotá, Colombia (UTC-5) · Remoto, medio tiempo y freelance · Español (nativo) · Inglés (B1)</p>
+<p align="center">Vélez, Santander, Colombia (UTC-5) · Presencial en Bogotá o Bucaramanga, remoto o híbrido · Español (nativo) · Inglés intermedio (B1)</p>
 
 <p align="center">
   <a href="mailto:cristianyesidmquiroga@gmail.com"><img src="https://img.shields.io/badge/Correo-contacto-0b2a4a?style=flat-square&logo=gmail&logoColor=white" alt="Correo"></a>
-  <img src="https://img.shields.io/badge/Estado-abierto%20a%20trabajo%20remoto-1a7f37?style=flat-square" alt="Abierto a trabajo remoto">
+  <img src="https://img.shields.io/badge/Estado-busco%20etapa%20pr%C3%A1ctica%20(abril%202027)-1a7f37?style=flat-square" alt="Busco etapa práctica desde abril de 2027">
   <img src="https://img.shields.io/badge/Respuesta-en%2024h-1a5fb4?style=flat-square" alt="Respuesta en 24 horas">
 </p>
 
@@ -13,7 +13,7 @@
 
 <br>
 
-**Full-Stack Developer** · Java (Spring Boot) · Python (Flask) · React · PostgreSQL · Docker. Bogotá, Colombia (UTC-5) · Remote, part-time and freelance · Spanish (native), English (B1).
+**Full-Stack Developer** · Java (Spring Boot) · Python (Flask) · React · PostgreSQL · Docker. Vélez, Santander, Colombia (UTC-5) · On-site in Bogotá or Bucaramanga, remote or hybrid · Spanish (native), English intermediate (B1).
 
 ### About me
 
