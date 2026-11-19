@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 400" width="860" height="400" role="img" aria-label="Terminal: Cristian Muñoz, junior full-stack developer looking for an internship">
+<style>text{font-family:Consolas,'DejaVu Sans Mono',Menlo,'Courier New',monospace;font-size:15px;white-space:pre}
+@keyframes l0{0%,3.354%{transform:translateX(0);animation-timing-function:steps(8,end)}6.484%,100%{transform:translateX(85.6px)}}.l0{animation:l0 17.89s infinite}
+@keyframes v0{0%,3.354%{opacity:0}3.364%,100%{opacity:1}}.v0{animation:v0 17.89s infinite}
+@keyframes l1{0%,7.881%{transform:translateX(0);animation-timing-function:ease-out}9.838%,100%{transform:translateX(591.6px)}}.l1{animation:l1 17.89s infinite}
+@keyframes v1{0%,7.881%{opacity:0}7.891%,100%{opacity:1}}.v1{animation:v1 17.89s infinite}
+@keyframes l2{0%,12.912%{transform:translateX(0);animation-timing-function:steps(15,end)}18.781%,100%{transform:translateX(150px)}}.l2{animation:l2 17.89s infinite}
+@keyframes v2{0%,12.912%{opacity:0}12.922%,100%{opacity:1}}.v2{animation:v2 17.89s infinite}
+@keyframes l3{0%,20.179%{transform:translateX(0);animation-timing-function:ease-out}22.135%,100%{transform:translateX(656px)}}.l3{animation:l3 17.89s infinite}
+@keyframes v3{0%,20.179%{opacity:0}20.189%,100%{opacity:1}}.v3{animation:v3 17.89s infinite}
+@keyframes l4{0%,25.21%{transform:translateX(0);animation-timing-function:steps(14,end)}30.688%,100%{transform:translateX(140.8px)}}.l4{animation:l4 17.89s infinite}
+@keyframes v4{0%,25.21%{opacity:0}25.22%,100%{opacity:1}}.v4{animation:v4 17.89s infinite}
+@keyframes l5{0%,32.085%{transform:translateX(0);animation-timing-function:ease-out}34.041%,100%{transform:translateX(656px)}}.l5{animation:l5 17.89s infinite}
+@keyframes v5{0%,32.085%{opacity:0}32.095%,100%{opacity:1}}.v5{animation:v5 17.89s infinite}
+@keyframes l6{0%,37.116%{transform:translateX(0);animation-timing-function:steps(13,end)}42.202%,100%{transform:translateX(131.6px)}}.l6{animation:l6 17.89s infinite}
+@keyframes v6{0%,37.116%{opacity:0}37.126%,100%{opacity:1}}.v6{animation:v6 17.89s infinite}
+@keyframes l7{0%,43.6%{transform:translateX(0);animation-timing-function:ease-out}45.556%,100%{transform:translateX(674.4px)}}.l7{animation:l7 17.89s infinite}
+@keyframes v7{0%,43.6%{opacity:0}43.61%,100%{opacity:1}}.v7{animation:v7 17.89s infinite}
+@keyframes l8{0%,48.631%{transform:translateX(0);animation-timing-function:steps(15,end)}54.5%,100%{transform:translateX(150px)}}.l8{animation:l8 17.89s infinite}
+@keyframes v8{0%,48.631%{opacity:0}48.641%,100%{opacity:1}}.v8{animation:v8 17.89s infinite}
+@keyframes l9{0%,55.897%{transform:translateX(0);animation-timing-function:ease-out}57.854%,100%{transform:translateX(508.8px)}}.l9{animation:l9 17.89s infinite}
+@keyframes v9{0%,55.897%{opacity:0}55.907%,100%{opacity:1}}.v9{animation:v9 17.89s infinite}
+@keyframes l10{0%,60.928%{transform:translateX(0);animation-timing-function:steps(12,end)}65.623%,100%{transform:translateX(122.4px)}}.l10{animation:l10 17.89s infinite}
+@keyframes v10{0%,60.928%{opacity:0}60.938%,100%{opacity:1}}.v10{animation:v10 17.89s infinite}
+@keyframes l11{0%,67.021%{transform:translateX(0);animation-timing-function:ease-out}68.977%,100%{transform:translateX(683.6px)}}.l11{animation:l11 17.89s infinite}
+@keyframes v11{0%,67.021%{opacity:0}67.031%,100%{opacity:1}}.v11{animation:v11 17.89s infinite}
+@keyframes ver{0%,68.977%{opacity:0}69.536%,100%{opacity:1}}.fin{animation:ver 17.89s infinite}.cursor{animation:ver 17.89s infinite,parpadeo 1s step-end infinite}@keyframes parpadeo{50%{fill-opacity:0}}
+@keyframes ciclo{0%,96%{opacity:1}99%,100%{opacity:0}}.contenido{animation:ciclo 17.89s infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs><clipPath id="marco"><rect width="860" height="400" rx="14"/></clipPath>
+<linearGradient id="borde" x1="0" x2="1"><stop offset="0" stop-color="#1a5fb4"/><stop offset=".5" stop-color="#2da44e"/><stop offset="1" stop-color="#d9480f"/></linearGradient></defs>
+<g clip-path="url(#marco)">
+<rect width="860" height="400" fill="#0b2a4a"/>
+<rect width="860" height="36" fill="#082038"/>
+<rect y="36" width="860" height="2" fill="url(#borde)"/>
+<circle cx="22" cy="18" r="6" fill="#ff5f57"/><circle cx="42" cy="18" r="6" fill="#febc2e"/><circle cx="62" cy="18" r="6" fill="#28c840"/>
+<text x="430" y="23" text-anchor="middle" fill="#8b949e" style="font-size:13px">cristian@velez: ~</text>
+<g class="contenido">
+<g class="v0"><text x="28" y="58"><tspan fill="#7ee787">cristian@velez</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">whoami</tspan></text>
+<rect class="l0" x="164" y="41" width="85.6" height="26" fill="#0b2a4a"/></g>
+<g class="v1"><text x="28" y="84"><tspan fill="#e6edf3">Cristian Muñoz · Junior Full-Stack Developer · Vélez, Santander</tspan></text>
+<rect class="l1" x="26" y="67" width="591.6" height="26" fill="#0b2a4a"/></g>
+<g class="v2"><text x="28" y="110"><tspan fill="#7ee787">cristian@velez</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">cat stack.txt</tspan></text>
+<rect class="l2" x="164" y="93" width="150" height="26" fill="#0b2a4a"/></g>
+<g class="v3"><text x="28" y="136"><tspan fill="#79c0ff">Go · Java · Spring Boot · Python · Flask · React · PostgreSQL · Docker</tspan></text>
+<rect class="l3" x="26" y="119" width="656" height="26" fill="#0b2a4a"/></g>
+<g class="v4"><text x="28" y="162"><tspan fill="#7ee787">cristian@velez</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">ls projects/</tspan></text>
+<rect class="l4" x="164" y="145" width="140.8" height="26" fill="#0b2a4a"/></g>
+<g class="v5"><text x="28" y="188"><tspan fill="#d2a8ff">bustra/  access-control/  weather/  observatory/  agrogestion/  store/</tspan></text>
+<rect class="l5" x="26" y="171" width="656" height="26" fill="#0b2a4a"/></g>
+<g class="v6"><text x="28" y="214"><tspan fill="#7ee787">cristian@velez</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">cat now.txt</tspan></text>
+<rect class="l6" x="164" y="197" width="131.6" height="26" fill="#0b2a4a"/></g>
+<g class="v7"><text x="28" y="240"><tspan fill="#e3b341">BUStra: Go API, Flask web app and Chrome extension · bustra.proyecto.sbs</tspan></text>
+<rect class="l7" x="26" y="223" width="674.4" height="26" fill="#0b2a4a"/></g>
+<g class="v8"><text x="28" y="266"><tspan fill="#7ee787">cristian@velez</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">cat tests.txt</tspan></text>
+<rect class="l8" x="164" y="249" width="150" height="26" fill="#0b2a4a"/></g>
+<g class="v9"><text x="28" y="292"><tspan fill="#7ee787">700+ in Spring Boot · 800+ in Flask · CI on every push</tspan></text>
+<rect class="l9" x="26" y="275" width="508.8" height="26" fill="#0b2a4a"/></g>
+<g class="v10"><text x="28" y="318"><tspan fill="#7ee787">cristian@velez</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">echo $GOAL</tspan></text>
+<rect class="l10" x="164" y="301" width="122.4" height="26" fill="#0b2a4a"/></g>
+<g class="v11"><text x="28" y="344"><tspan fill="#ffa657">Looking for an internship to finish my studies and keep building software</tspan></text>
+<rect class="l11" x="26" y="327" width="683.6" height="26" fill="#0b2a4a"/></g>
+<text class="fin" x="28" y="370"><tspan fill="#7ee787">cristian@velez</tspan><tspan fill="#8b949e">:~$ </tspan></text><rect class="cursor" x="166" y="356" width="9" height="18" fill="#e6edf3"/>
+</g></g>
+</svg>

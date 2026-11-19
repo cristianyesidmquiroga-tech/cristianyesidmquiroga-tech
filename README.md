@@ -28,9 +28,19 @@
 
 <br>
 
-**Junior Full-Stack Developer** · Go · Java (Spring Boot) · Python (Flask) · React · PostgreSQL · Docker. Vélez, Santander, Colombia (UTC-5) · On-site in Bogotá or Bucaramanga, remote or hybrid · Spanish (native), English intermediate (B1).
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/hero-en-oscuro.svg"><img src="img/hero-en.svg" width="100%" alt="Cristian Muñoz, junior full-stack developer: data, API and interface with security layers and blockchain seals. Open to internships."></picture></p>
 
-### About me
+<p align="center"><b>Junior Full-Stack Developer</b> · Go · Java (Spring Boot) · Python (Flask) · React · PostgreSQL · Docker. Vélez, Santander, Colombia (UTC-5) · On-site in Bogotá or Bucaramanga, remote or hybrid · Spanish (native), English intermediate (B1).</p>
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/salida/cosecha-oscuro.svg"><img src="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/salida/cosecha.svg" width="100%" alt="Tractor harvesting my contribution calendar"></picture></p>
+
+<p align="center"><img src="img/terminal-en.svg" width="100%" alt="Terminal: Cristian Muñoz, junior full-stack developer looking for an internship"></p>
+
+<img src="img/divisor.svg" width="100%" alt="">
+
+### About me <img src="img/iconos/brote.svg" height="28" alt="">
+
+<img align="right" src="img/programando.svg" width="45%" alt="Developer coding at a desk">
 
 - Full-stack developer in training: Technologist in Software Analysis and Development (SENA).
 - I build complete systems: database, API, interface and Docker deployment.
@@ -40,11 +50,15 @@
 - Learning blockchain (Solidity, Hardhat, OpenZeppelin) and running my own VPS with my own GitHub Actions runners.
 - Junior developer looking for a work placement to complete my studies and keep building software.
 
+<br clear="right">
+
 I am a full-stack developer in training (Technologist in Software Analysis and Development, SENA) and I build complete web systems from start to finish: database, API, interface and deployment. What matters most to me is that what I build is secure, tested and explainable, so every project ships with automated tests, documentation and a Docker setup that lets anyone run it.
 
 One of my largest projects is an access control system for a training center that I built twice: first in Flask, then as a Spring Boot API with a React front end. I migrated the tests one by one from one version to the other to prove that both behave the same.
 
-### What I can do for you
+<img src="img/divisor.svg" width="100%" alt="">
+
+### What I can do for you <img src="img/iconos/llave.svg" height="28" alt="">
 
 - Websites and business sites with an admin panel.
 - Custom web applications and REST APIs.
@@ -53,9 +67,13 @@ One of my largest projects is an access control system for a training center tha
 - Excel and PDF report automation.
 - Bug fixing, code review and security review.
 
-### How I work
+<img src="img/divisor.svg" width="100%" alt="">
+
+### How I work <img src="img/iconos/engranaje.svg" height="28" alt="">
 
 Every project goes through the same stages, and each stage leaves something that can be reviewed.
+
+<p align="center"><img src="img/pasos-en.svg" width="100%" alt="Analyze, research, plan, build, audit and deliver"></p>
 
 1. **Analyze.** I define what will be built, for whom, why and what is needed. If something is unclear, I ask before coding. Output: written requirements.
 2. **Research.** I look for ideas, see how similar systems solve the problem and compare options (technologies, structure, risks). Output: decisions with a reason behind them.
@@ -64,7 +82,16 @@ Every project goes through the same stages, and each stage leaves something that
 5. **Audit every view.** I treat each screen as a small security audit. I check which role can enter, what data it receives and what happens if someone sends tampered data: role permissions, server-side validation, injection, sessions and cookies, rate limiting and secrets handling. Then I test the view with every user profile, both what it allows and what it must refuse.
 6. **Document and deliver.** Structure, deployment and operation are written down so another person can run the project with `docker compose up`.
 
-### Projects
+<img src="img/divisor.svg" width="100%" alt="">
+
+### Projects <img src="img/iconos/carpeta.svg" height="28" alt="">
+
+<p align="center">
+  <a href="https://bustra.proyecto.sbs/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/proyectos/bustra-en-oscuro.svg"><img src="img/proyectos/bustra-en.svg" width="49%" alt="BUStra: job-search site"></picture></a>
+  <a href="https://github.com/cristianyesidmquiroga-tech/spring"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/proyectos/acceso-en-oscuro.svg"><img src="img/proyectos/acceso-en.svg" width="49%" alt="Access control in Spring Boot, React and Flask"></picture></a>
+  <a href="https://nuestroclima.co/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/proyectos/clima-en-oscuro.svg"><img src="img/proyectos/clima-en.svg" width="49%" alt="Weather monitoring"></picture></a>
+  <a href="https://observatoriogransantander.co/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/proyectos/observatorio-en-oscuro.svg"><img src="img/proyectos/observatorio-en.svg" width="49%" alt="Agricultural Observatory of Gran Santander"></picture></a>
+</p>
 
 **[BUStra](https://bustra.proyecto.sbs/)** · Go, PostgreSQL, Flask, Redis, Cloudflare, Chrome extension (live site, private code)
 Colombian job-search site. It reads the job alerts people already get by email (LinkedIn, Computrabajo), merges them without duplicates, compares each offer with their CV and shows what they meet and what is missing; it also drafts the cover letter. The Go API handles accounts with an authenticator app, CVs, plans paid by bank transfer, support cases and reminder emails before a plan expires. The Flask web app uses Redis for login limits and Cloudflare Turnstile against bots, and a Cloudflare Worker forwards alert emails to the API. The Chrome extension (Manifest V3, only asks for `storage`) fills the job portal form in one click and lets the person review and send. CI runs on self-hosted runners in my VPS.
@@ -93,7 +120,11 @@ Public site with a map, indicators and downloadable CSV and XLSX data. More than
 **[AgroGestión](https://agrogestion.proyecto.sbs/)** · FastAPI, PostgreSQL, SQLAlchemy, React, Flutter (live site)
 Crop and farm management: plantings, labour, inputs, harvests and cash flow, usable from a phone even without signal. [Code](https://github.com/cristianyesidmquiroga-tech/agrogestion).
 
-### Stack
+<img src="img/divisor.svg" width="100%" alt="">
+
+### Stack <img src="img/iconos/rayo.svg" height="28" alt="">
+
+<p align="center"><img src="img/stack.svg" width="100%" alt="Go, Java, Spring Boot, Python, Flask, Django, FastAPI, React, TypeScript, JavaScript, Tailwind CSS, PostgreSQL, Redis, Supabase, Docker, Nginx, Coolify, Cloudflare, GitHub Actions, Solidity, Linux and Pytest"></p>
 
 | Area | Tools |
 |---|---|
@@ -104,13 +135,39 @@ Crop and farm management: plantings, labour, inputs, harvests and cash flow, usa
 | Quality | JUnit 5, Mockito, Testcontainers, JaCoCo, Pytest, go test, Vitest, OWASP-based checklists |
 | Blockchain | Solidity, Hardhat, OpenZeppelin, ethers, Slither |
 
-### Right now
+<img src="img/divisor.svg" width="100%" alt="">
+
+### Activity <img src="img/iconos/grafica.svg" height="28" alt="">
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/salida/profile-3d-contrib/profile-night-green.svg"><img src="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/salida/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="My contributions in 3D"></picture></p>
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=cristianyesidmquiroga-tech&custom_title=Contributions%20in%20the%20last%2031%20days&bg_color=00000000&color=8c959f&title_color=1a5fb4&line=1a5fb4&point=d9480f&area=true&area_color=1a5fb4&hide_border=true" alt="Contributions in the last 31 days">
+</p>
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cristianyesidmquiroga-tech&layout=compact&langs_count=6&hide=dockerfile,batchfile&hide_border=true&bg_color=00000000&title_color=1a5fb4&text_color=8c959f&locale=en" alt="Most used languages in my public repositories">
+  <img height="165" src="https://streak-stats.demolab.com?user=cristianyesidmquiroga-tech&hide_border=true&background=00000000&ring=1A5FB4&fire=D9480F&currStreakLabel=1A5FB4&sideLabels=8C959F&dates=8C959F&currStreakNum=8C959F&sideNums=8C959F&locale=en" alt="Contribution streak">
+</p>
+
+<img src="img/divisor.svg" width="100%" alt="">
+
+### Right now <img src="img/iconos/ahora.svg" height="28" alt="">
 
 I study at SENA (ADSO) in the afternoons and, as a junior developer, I am looking for my work placement (etapa práctica, also possible as an apprenticeship contract) to complete my studies. I can work mornings now, from 7:00 to 11:00 Colombia time (13:00-17:00 in Spain in winter, 14:00-18:00 in summer), and full time from 26 April 2027. Remote, or on-site in Bogotá or Bucaramanga. Right now I am building BUStra (Go, Flask and a Chrome extension). I am learning blockchain (Solidity contracts with Hardhat and OpenZeppelin) and I run my own VPS to publish my projects, with my own GitHub Actions runners.
 
-### Contact
+<img src="img/divisor.svg" width="100%" alt="">
+
+### Contact <img src="img/iconos/sobre.svg" height="28" alt="">
 
 Email: [cristianyesidmquiroga@gmail.com](mailto:cristianyesidmquiroga@gmail.com). I reply within 24 hours.
+
+<p align="center">
+  <a href="mailto:cristianyesidmquiroga@gmail.com"><img src="https://img.shields.io/badge/Email%20me-cristianyesidmquiroga%40gmail.com-1a5fb4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email me"></a>
+  <a href="https://github.com/cristianyesidmquiroga-tech"><img src="https://img.shields.io/badge/GitHub-cristianyesidmquiroga--tech-0b2a4a?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+</p>
+
+<p align="center"><img src="img/pie-en.svg" width="100%" alt="Thanks for stopping by"></p>
 
 </details>
 
