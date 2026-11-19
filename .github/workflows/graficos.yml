@@ -1,0 +1,59 @@
+name: Graficos
+
+on:
+  schedule:
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/banner.js", ".github/workflows/graficos.yml"]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: graficos
+  cancel-in-progress: false
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24.x
+      - name: Generar SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/banner.js "${{ github.repository_owner }}" "$RUNNER_TEMP/salida"
+      - name: Generar grafico 3D
+        uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Publicar en la rama salida
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p "$RUNNER_TEMP/salida/profile-3d-contrib"
+          cp profile-3d-contrib/profile-green-animate.svg profile-3d-contrib/profile-night-rainbow.svg "$RUNNER_TEMP/salida/profile-3d-contrib/"
+          rm -rf profile-3d-contrib
+          if git ls-remote --exit-code --heads origin salida >/dev/null; then
+            git switch salida
+          else
+            git switch --orphan salida
+          fi
+          cp -r "$RUNNER_TEMP"/salida/. .
+          git add cosecha.svg cosecha-oscuro.svg profile-3d-contrib
+          if git diff --cached --quiet; then
+            echo "sin cambios en los graficos"
+          else
+            git commit -q -m "chore: graficos del $(date -u +%F)"
+            git push origin salida
+          fi
