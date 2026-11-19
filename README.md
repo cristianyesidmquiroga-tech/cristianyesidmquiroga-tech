@@ -165,10 +165,10 @@ Cada proyecto pasa por las mismas etapas, y cada etapa deja algo que se puede re
 ## Proyectos <img src="img/iconos/carpeta.svg" height="30" alt="">
 
 <p align="center">
-  <a href="https://bustra.proyecto.sbs/"><img src="img/proyectos/bustra.svg" width="49%" alt="BUStra: web para buscar empleo"></a>
-  <a href="https://github.com/cristianyesidmquiroga-tech/spring"><img src="img/proyectos/acceso.svg" width="49%" alt="Control de acceso en Spring Boot, React y Flask"></a>
-  <a href="https://nuestroclima.co/"><img src="img/proyectos/clima.svg" width="49%" alt="Monitoreo del clima"></a>
-  <a href="https://observatoriogransantander.co/"><img src="img/proyectos/observatorio.svg" width="49%" alt="Observatorio Agropecuario del Gran Santander"></a>
+  <a href="https://bustra.proyecto.sbs/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/proyectos/bustra-oscuro.svg"><img src="img/proyectos/bustra.svg" width="49%" alt="BUStra: web para buscar empleo"></picture></a>
+  <a href="https://github.com/cristianyesidmquiroga-tech/spring"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/proyectos/acceso-oscuro.svg"><img src="img/proyectos/acceso.svg" width="49%" alt="Control de acceso en Spring Boot, React y Flask"></picture></a>
+  <a href="https://nuestroclima.co/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/proyectos/clima-oscuro.svg"><img src="img/proyectos/clima.svg" width="49%" alt="Monitoreo del clima"></picture></a>
+  <a href="https://observatoriogransantander.co/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/proyectos/observatorio-oscuro.svg"><img src="img/proyectos/observatorio.svg" width="49%" alt="Observatorio Agropecuario del Gran Santander"></picture></a>
 </p>
 
 **[BUStra](https://bustra.proyecto.sbs/)** · Go, PostgreSQL, Flask, Redis, Cloudflare, extensión de Chrome (sitio en línea, código privado)
