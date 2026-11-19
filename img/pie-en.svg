@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 160" width="860" height="160" role="img" aria-label="Thanks for stopping by">
+<style>.o1{animation:o 9s linear infinite}.o2{animation:o 6s linear infinite reverse}.o3{animation:o 12s linear infinite}@keyframes o{to{transform:translateX(-860px)}}
+text{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#fff}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs><clipPath id="c"><rect width="860" height="160" rx="14"/></clipPath></defs>
+<g clip-path="url(#c)">
+<path class="o3" d="M0 70 q53.75 -16 107.5 0 t107.5 0 q53.75 -16 107.5 0 t107.5 0 q53.75 -16 107.5 0 t107.5 0 q53.75 -16 107.5 0 t107.5 0 q53.75 -16 107.5 0 t107.5 0 q53.75 -16 107.5 0 t107.5 0 q53.75 -16 107.5 0 t107.5 0 q53.75 -16 107.5 0 t107.5 0 V160 H0z" fill="#1a5fb4" opacity=".35"/>
+<path class="o1" d="M0 84 q53.75 -14 107.5 0 t107.5 0 q53.75 -14 107.5 0 t107.5 0 q53.75 -14 107.5 0 t107.5 0 q53.75 -14 107.5 0 t107.5 0 q53.75 -14 107.5 0 t107.5 0 q53.75 -14 107.5 0 t107.5 0 q53.75 -14 107.5 0 t107.5 0 q53.75 -14 107.5 0 t107.5 0 V160 H0z" fill="#1a5fb4" opacity=".7"/>
+<path class="o2" d="M0 98 q53.75 -12 107.5 0 t107.5 0 q53.75 -12 107.5 0 t107.5 0 q53.75 -12 107.5 0 t107.5 0 q53.75 -12 107.5 0 t107.5 0 q53.75 -12 107.5 0 t107.5 0 q53.75 -12 107.5 0 t107.5 0 q53.75 -12 107.5 0 t107.5 0 q53.75 -12 107.5 0 t107.5 0 V160 H0z" fill="#0b2a4a"/>
+<text x="430" y="132" text-anchor="middle" style="font-size:20px;font-weight:600">Thanks for stopping by</text>
+<text x="430" y="152" text-anchor="middle" style="font-size:12px;fill:#8b949e">Vélez, Santander · Colombia</text>
+</g>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 190" width="860" height="190" role="img" aria-label="How I work: analyze, research, plan, build, audit and deliver">
+<style>text{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}.num{fill:#fff;font-size:17px;font-weight:700}.nom{fill:#e6edf3;font-size:15px;font-weight:600}.sub{fill:#8b949e;font-size:12px}
+.barra{transform-box:fill-box;transform-origin:left center;animation:barra 9.1s linear infinite}
+@keyframes barra{0%{transform:scaleX(0)}60.44%,92%{transform:scaleX(1)}100%{transform:scaleX(1);opacity:0}}
+.punto{animation:punto 9.1s linear infinite}
+@keyframes punto{0%{transform:translateX(0)}60.44%,100%{transform:translateX(690px)}}
+.nodo{transform-box:fill-box;transform-origin:center}
+@keyframes n0{0%,0%{fill:#163a63;transform:scale(1)}1.648%{fill:#1a5fb4;transform:scale(1.25)}4.396%,94%{fill:#1a5fb4;transform:scale(1)}100%{fill:#163a63}}.n0{animation:n0 9.1s infinite}
+@keyframes a0{0%,0%{opacity:.35}2.198%,94%{opacity:1}100%{opacity:.35}}.a0{animation:a0 9.1s infinite}
+@keyframes n1{0%,12.088%{fill:#163a63;transform:scale(1)}13.736%{fill:#2da44e;transform:scale(1.25)}16.484%,94%{fill:#2da44e;transform:scale(1)}100%{fill:#163a63}}.n1{animation:n1 9.1s infinite}
+@keyframes a1{0%,12.088%{opacity:.35}14.286%,94%{opacity:1}100%{opacity:.35}}.a1{animation:a1 9.1s infinite}
+@keyframes n2{0%,24.176%{fill:#163a63;transform:scale(1)}25.824%{fill:#d9480f;transform:scale(1.25)}28.571%,94%{fill:#d9480f;transform:scale(1)}100%{fill:#163a63}}.n2{animation:n2 9.1s infinite}
+@keyframes a2{0%,24.176%{opacity:.35}26.374%,94%{opacity:1}100%{opacity:.35}}.a2{animation:a2 9.1s infinite}
+@keyframes n3{0%,36.264%{fill:#163a63;transform:scale(1)}37.912%{fill:#a371f7;transform:scale(1.25)}40.659%,94%{fill:#a371f7;transform:scale(1)}100%{fill:#163a63}}.n3{animation:n3 9.1s infinite}
+@keyframes a3{0%,36.264%{opacity:.35}38.462%,94%{opacity:1}100%{opacity:.35}}.a3{animation:a3 9.1s infinite}
+@keyframes n4{0%,48.352%{fill:#163a63;transform:scale(1)}50%{fill:#e3b341;transform:scale(1.25)}52.747%,94%{fill:#e3b341;transform:scale(1)}100%{fill:#163a63}}.n4{animation:n4 9.1s infinite}
+@keyframes a4{0%,48.352%{opacity:.35}50.549%,94%{opacity:1}100%{opacity:.35}}.a4{animation:a4 9.1s infinite}
+@keyframes n5{0%,60.44%{fill:#163a63;transform:scale(1)}62.088%{fill:#58a6ff;transform:scale(1.25)}64.835%,94%{fill:#58a6ff;transform:scale(1)}100%{fill:#163a63}}.n5{animation:n5 9.1s infinite}
+@keyframes a5{0%,60.44%{opacity:.35}62.637%,94%{opacity:1}100%{opacity:.35}}.a5{animation:a5 9.1s infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#1a5fb4"/><stop offset=".5" stop-color="#2da44e"/><stop offset="1" stop-color="#d9480f"/></linearGradient>
+<radialGradient id="brillo"><stop offset="0" stop-color="#fff"/><stop offset=".4" stop-color="#7ee787"/><stop offset="1" stop-color="#7ee787" stop-opacity="0"/></radialGradient></defs>
+<rect width="860" height="190" rx="14" fill="#0b2a4a"/>
+<rect x="85" y="76" width="690" height="4" rx="2" fill="#163a63"/>
+<rect class="barra" x="85" y="76" width="690" height="4" rx="2" fill="url(#g)"/>
+<circle class="nodo n0" cx="85" cy="78" r="24" fill="#163a63" stroke="#30598c" stroke-width="2"/>
+<text x="85" y="84" text-anchor="middle" class="num">1</text>
+<g class="a0"><text x="85" y="130" text-anchor="middle" class="nom">Analyze</text><text x="85" y="150" text-anchor="middle" class="sub">written requirements</text></g>
+<circle class="nodo n1" cx="223" cy="78" r="24" fill="#163a63" stroke="#30598c" stroke-width="2"/>
+<text x="223" y="84" text-anchor="middle" class="num">2</text>
+<g class="a1"><text x="223" y="130" text-anchor="middle" class="nom">Research</text><text x="223" y="150" text-anchor="middle" class="sub">reasoned decisions</text></g>
+<circle class="nodo n2" cx="361" cy="78" r="24" fill="#163a63" stroke="#30598c" stroke-width="2"/>
+<text x="361" y="84" text-anchor="middle" class="num">3</text>
+<g class="a2"><text x="361" y="130" text-anchor="middle" class="nom">Plan</text><text x="361" y="150" text-anchor="middle" class="sub">reviewed plan</text></g>
+<circle class="nodo n3" cx="499" cy="78" r="24" fill="#163a63" stroke="#30598c" stroke-width="2"/>
+<text x="499" y="84" text-anchor="middle" class="num">4</text>
+<g class="a3"><text x="499" y="130" text-anchor="middle" class="nom">Build</text><text x="499" y="150" text-anchor="middle" class="sub">modules with tests</text></g>
+<circle class="nodo n4" cx="637" cy="78" r="24" fill="#163a63" stroke="#30598c" stroke-width="2"/>
+<text x="637" y="84" text-anchor="middle" class="num">5</text>
+<g class="a4"><text x="637" y="130" text-anchor="middle" class="nom">Audit</text><text x="637" y="150" text-anchor="middle" class="sub">every view and role</text></g>
+<circle class="nodo n5" cx="775" cy="78" r="24" fill="#163a63" stroke="#30598c" stroke-width="2"/>
+<text x="775" y="84" text-anchor="middle" class="num">6</text>
+<g class="a5"><text x="775" y="130" text-anchor="middle" class="nom">Deliver</text><text x="775" y="150" text-anchor="middle" class="sub">docs and Docker</text></g>
+<circle class="punto" cx="85" cy="78" r="14" fill="url(#brillo)"/>
+</svg>
