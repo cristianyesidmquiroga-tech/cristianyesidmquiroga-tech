@@ -2,7 +2,7 @@
 <style>text{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
 .s{fill:#d9480f;font-size:11.5px;font-weight:700;letter-spacing:1.6px}.t{fill:#0b2a4a;font-size:24px;font-weight:800;letter-spacing:-.5px}.d{fill:#3d4b5c;font-size:13.5px}.tag{fill:#0b2a4a;font-size:12px;font-weight:600}
 .est{fill:#3d4b5c;font-size:12px;font-weight:600}.acc{fill:#d9480f;font-size:12.5px;font-weight:700}
-.luzBarra{animation:corre 3.6s linear infinite}@keyframes corre{from{transform:translateX(-140px)}to{transform:translateX(420px)}}
+.luzBarra{animation:corre 4.2s cubic-bezier(.65,0,.35,1) infinite}@keyframes corre{0%{transform:translateX(-420px)}45%,55%{transform:translateX(0)}100%{transform:translateX(420px)}}
 .late{transform-box:fill-box;transform-origin:center;animation:late 1.6s ease-out infinite}@keyframes late{from{transform:scale(1);opacity:.8}to{transform:scale(2.6);opacity:0}}
 .flecha{animation:flecha 1.4s ease-in-out infinite}@keyframes flecha{50%{transform:translateX(4px)}}
 .flota{animation:flota 3.2s ease-in-out infinite alternate}@keyframes flota{to{transform:translateY(-4px)}}
@@ -20,13 +20,12 @@
 </style>
 <defs><linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#faf8f3"/></linearGradient>
 <radialGradient id="halo"><stop offset="0" stop-color="#d9480f" stop-opacity=".16"/><stop offset="1" stop-color="#d9480f" stop-opacity="0"/></radialGradient>
-<linearGradient id="luz" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".8"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
 <clipPath id="marco"><rect width="420" height="270" rx="18"/></clipPath></defs>
 <g clip-path="url(#marco)">
 <rect width="420" height="270" fill="url(#fondo)"/>
 <g stroke="#0b2a4a" stroke-opacity=".04"><line x1="0" y1="0" x2="0" y2="270"/><line x1="24" y1="0" x2="24" y2="270"/><line x1="48" y1="0" x2="48" y2="270"/><line x1="72" y1="0" x2="72" y2="270"/><line x1="96" y1="0" x2="96" y2="270"/><line x1="120" y1="0" x2="120" y2="270"/><line x1="144" y1="0" x2="144" y2="270"/><line x1="168" y1="0" x2="168" y2="270"/><line x1="192" y1="0" x2="192" y2="270"/><line x1="216" y1="0" x2="216" y2="270"/><line x1="240" y1="0" x2="240" y2="270"/><line x1="264" y1="0" x2="264" y2="270"/><line x1="288" y1="0" x2="288" y2="270"/><line x1="312" y1="0" x2="312" y2="270"/><line x1="336" y1="0" x2="336" y2="270"/><line x1="360" y1="0" x2="360" y2="270"/><line x1="384" y1="0" x2="384" y2="270"/><line x1="408" y1="0" x2="408" y2="270"/><line x1="0" y1="0" x2="420" y2="0"/><line x1="0" y1="24" x2="420" y2="24"/><line x1="0" y1="48" x2="420" y2="48"/><line x1="0" y1="72" x2="420" y2="72"/><line x1="0" y1="96" x2="420" y2="96"/><line x1="0" y1="120" x2="420" y2="120"/><line x1="0" y1="144" x2="420" y2="144"/><line x1="0" y1="168" x2="420" y2="168"/><line x1="0" y1="192" x2="420" y2="192"/><line x1="0" y1="216" x2="420" y2="216"/><line x1="0" y1="240" x2="420" y2="240"/><line x1="0" y1="264" x2="420" y2="264"/></g>
 <circle cx="345" cy="68" r="95" fill="url(#halo)"/>
-<rect width="420" height="5" fill="#d9480f"/><rect class="luzBarra" width="140" height="5" fill="url(#luz)"/>
+<rect width="420" height="5" fill="#d9480f" opacity=".28"/><rect class="luzBarra" width="420" height="5" fill="#d9480f"/>
 
 <g class="flota"><polygon points="342,52 398,80 342,108 286,80" fill="#2da44e" opacity=".22" stroke="#2da44e" stroke-opacity=".5"/>
 <path d="M314 66l56 28M328 59l56 28M314 94l56-28M328 101l56-28" stroke="#2da44e" stroke-opacity=".35"/>
