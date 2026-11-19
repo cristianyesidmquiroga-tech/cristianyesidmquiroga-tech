@@ -3,7 +3,7 @@
 text{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
 .ceja{font-size:13px;font-weight:700;letter-spacing:2.6px;fill:#79c0ff}
 .n1{font-size:68px;font-weight:800;fill:#f0f6fc;letter-spacing:-2px}
-.n2{font-size:68px;font-weight:800;letter-spacing:-2px;fill:url(#tinta);fill-opacity:0;stroke:#f0f6fc;stroke-width:1.6;stroke-dasharray:420;stroke-dashoffset:420;animation:trazo 2.2s .4s cubic-bezier(.65,0,.35,1) forwards,llena .8s 2.2s ease-out forwards}
+.n2{font-size:68px;font-weight:800;letter-spacing:-2px;fill:#f0f6fc;fill-opacity:0;stroke:#f0f6fc;stroke-width:1.6;stroke-dasharray:420;stroke-dashoffset:420;animation:trazo 2.2s .4s cubic-bezier(.65,0,.35,1) forwards,llena .8s 2.2s ease-out forwards}
 @keyframes trazo{to{stroke-dashoffset:0}}@keyframes llena{to{fill-opacity:1}}
 .frase{font-size:17px;fill:#c9d1d9}
 .chip{font-size:13px;font-weight:600}
@@ -29,7 +29,6 @@ text{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;transform:none!important;stroke-dashoffset:0!important;fill-opacity:1!important}}
 </style>
 <defs>
-<linearGradient id="tinta" x1="0" x2="1"><stop offset="0" stop-color="#1a5fb4"/><stop offset=".55" stop-color="#2da44e"/><stop offset="1" stop-color="#d9480f"/></linearGradient>
 <radialGradient id="luz"><stop offset="0" stop-color="#d9480f" stop-opacity=".18"/><stop offset="1" stop-color="#ffd9a8" stop-opacity="0"/></radialGradient>
 <radialGradient id="luz2"><stop offset="0" stop-color="#1f6feb" stop-opacity=".3"/><stop offset="1" stop-color="#bcd8ff" stop-opacity="0"/></radialGradient>
 <radialGradient id="sombra"><stop offset="0" stop-color="#000000" stop-opacity=".55"/><stop offset="1" stop-color="#0b2a4a" stop-opacity="0"/></radialGradient>
@@ -123,16 +122,10 @@ text{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
 <g class="aparece" style="animation-delay:1.2s">
 <rect x="48" y="276" width="153.5" height="34" rx="17" fill="#163a63" stroke="#2da44e"/>
 <circle class="late" cx="66" cy="293" r="5" fill="#3fb85e"/><circle cx="66" cy="293" r="5" fill="#3fb85e"/>
-<text x="79" y="298" class="chip" fill="#fff">Busco prácticas</text></g><g class="aparece" style="animation-delay:1.32s">
-<rect x="209.5" y="276" width="42.6" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
-
-<text x="223.5" y="298" class="chip" fill="#e6edf3">Go</text></g><g class="aparece" style="animation-delay:1.44s">
-<rect x="260.1" y="276" width="108.3" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
-
-<text x="274.1" y="298" class="chip" fill="#e6edf3">Spring Boot</text></g><g class="aparece" style="animation-delay:1.56s">
-<rect x="376.4" y="276" width="64.5" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
-
-<text x="390.4" y="298" class="chip" fill="#e6edf3">React</text></g>
+<text x="79" y="298" class="chip" fill="#fff">Busco prácticas</text></g>
+<g class="aparece" style="animation-delay:1.5s"><rect x="48" y="324" width="3" height="38" rx="1.5" fill="#d9480f"/>
+<text x="62" y="339" class="frase" style="font-size:14.5px">Me gusta programar. Cada día aprendo algo nuevo,</text>
+<text x="62" y="358" class="frase" style="font-size:14.5px">casi siempre de un error que cometí.</text></g>
 <rect width="860" height="380" rx="20" fill="none" stroke="#30363d" stroke-width="2"/>
 </g>
 </svg>
