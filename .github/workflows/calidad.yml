@@ -1,0 +1,51 @@
+name: Calidad
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  secretos:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+      - uses: gitleaks/gitleaks-action@e0c47f4f8be36e29cdc102c57e68cb5cbf0e8d1e # v3.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  lineas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+      - name: Archivos de codigo de maximo 700 lineas
+        env:
+          BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          if [ -z "$BASE" ] || ! git cat-file -e "$BASE^{commit}" 2>/dev/null; then
+            BASE=$(git rev-list --max-parents=0 HEAD | tail -1)
+          fi
+          fallas=0
+          while IFS= read -r -d '' f; do
+            case "$f" in
+              *.py|*.java|*.js|*.jsx|*.mjs|*.cjs|*.ts|*.tsx|*.dart|*.kt|*.go|*.rs|*.c|*.cpp|*.cs|*.php|*.rb|*.sol|*.gd|*.css|*.scss|*.html|*.sql) ;;
+              *) continue ;;
+            esac
+            [ -f "$f" ] || continue
+            n=$(($(wc -l < "$f") + 1))
+            if [ "$n" -gt 700 ]; then
+              echo "::error file=$f::$n lineas (maximo 700); dividir por responsabilidad"
+              fallas=1
+            fi
+          done < <(git diff -z --name-only --diff-filter=ACMR "$BASE" HEAD)
+          exit $fallas
