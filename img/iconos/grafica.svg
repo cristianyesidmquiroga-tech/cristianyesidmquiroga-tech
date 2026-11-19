@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true">
+<style>.b{transform-box:fill-box;transform-origin:bottom;animation:c 2.4s ease-in-out infinite}.b2{animation-delay:.2s}.b3{animation-delay:.4s}@keyframes c{0%,100%{transform:scaleY(.35)}50%{transform:scaleY(1)}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect x="4" y="34" width="32" height="2" rx="1" fill="#8c959f"/>
+<rect class="b b1" x="7" y="12" width="6" height="22" rx="1.5" fill="#1a5fb4"/><rect class="b b2" x="17" y="6" width="6" height="28" rx="1.5" fill="#2da44e"/><rect class="b b3" x="27" y="16" width="6" height="18" rx="1.5" fill="#d9480f"/>
+</svg>
