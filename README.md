@@ -1,4 +1,9 @@
-<p align="center"><img src="img/hero.svg" width="100%" alt="Cristian Muñoz, desarrollador junior full-stack. Busco prácticas."></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/hero-oscuro.svg">
+    <img src="img/hero.svg" width="100%" alt="Cristian Muñoz, desarrollador junior full-stack: datos, API e interfaz con capas de seguridad y sellos en blockchain. Busco prácticas.">
+  </picture>
+</p>
 
 <p align="center"><b>Desarrollador Junior Full-Stack</b> · Go · Java (Spring Boot) · Python (Flask) · React · PostgreSQL · Docker</p>
 <p align="center">Vélez, Santander, Colombia (UTC-5) · Presencial en Bogotá o Bucaramanga, remoto o híbrido · Español (nativo) · Inglés intermedio (B1)</p>
