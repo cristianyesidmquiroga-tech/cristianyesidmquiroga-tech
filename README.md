@@ -1,25 +1,43 @@
-<h1 align="center">Cristian Muñoz</h1>
-<p align="center"><b>Desarrollador Full-Stack</b> · Java (Spring Boot) · Python (Flask) · React · PostgreSQL · Docker</p>
+<p align="center"><img src="img/hero.svg" width="100%" alt="Cristian Muñoz, desarrollador junior full-stack. Busco prácticas."></p>
+
+<p align="center"><b>Desarrollador Junior Full-Stack</b> · Go · Java (Spring Boot) · Python (Flask) · React · PostgreSQL · Docker</p>
 <p align="center">Vélez, Santander, Colombia (UTC-5) · Presencial en Bogotá o Bucaramanga, remoto o híbrido · Español (nativo) · Inglés intermedio (B1)</p>
 
 <p align="center">
   <a href="mailto:cristianyesidmquiroga@gmail.com"><img src="https://img.shields.io/badge/Correo-contacto-0b2a4a?style=flat-square&logo=gmail&logoColor=white" alt="Correo"></a>
-  <img src="https://img.shields.io/badge/Estado-busco%20junior%2C%20pr%C3%A1cticas%20o%20aprendizaje-1a7f37?style=flat-square" alt="Busco puesto junior, prácticas o aprendizaje">
+  <img src="https://img.shields.io/badge/Estado-busco%20pr%C3%A1cticas-1a7f37?style=flat-square" alt="Busco prácticas">
   <img src="https://img.shields.io/badge/Respuesta-en%2024h-1a5fb4?style=flat-square" alt="Respuesta en 24 horas">
 </p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/salida/cosecha-oscuro.svg">
+    <img src="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/salida/cosecha.svg" width="100%" alt="Tractor que cosecha mi calendario de contribuciones">
+  </picture>
+</p>
+
+<p align="center"><img src="img/terminal.svg" width="100%" alt="Terminal: Cristian Muñoz, desarrollador junior full-stack que busca prácticas"></p>
 
 <details>
 <summary><b>Read this in English</b></summary>
 
 <br>
 
-**Full-Stack Developer** · Java (Spring Boot) · Python (Flask) · React · PostgreSQL · Docker. Vélez, Santander, Colombia (UTC-5) · On-site in Bogotá or Bucaramanga, remote or hybrid · Spanish (native), English intermediate (B1).
+**Junior Full-Stack Developer** · Go · Java (Spring Boot) · Python (Flask) · React · PostgreSQL · Docker. Vélez, Santander, Colombia (UTC-5) · On-site in Bogotá or Bucaramanga, remote or hybrid · Spanish (native), English intermediate (B1).
 
 ### About me
 
+- Full-stack developer in training: Technologist in Software Analysis and Development (SENA).
+- I build complete systems: database, API, interface and Docker deployment.
+- Right now I am building [BUStra](https://bustra.proyecto.sbs/), a job-search site: Go API, Flask web app and a Chrome extension.
+- I built an access control system twice, in Flask and in Spring Boot + React, with more than 1,500 tests across both versions.
+- Live: [bustra.proyecto.sbs](https://bustra.proyecto.sbs/), [esena.proyecto.sbs](https://esena.proyecto.sbs/auth/login), [nuestroclima.co](https://nuestroclima.co/), [Observatorio Gran Santander](https://observatoriogransantander.co/) and [AgroGestión](https://agrogestion.proyecto.sbs/).
+- Learning blockchain (Solidity, Hardhat, OpenZeppelin) and running my own VPS with my own GitHub Actions runners.
+- Junior developer looking for a work placement to complete my studies and keep building software.
+
 I am a full-stack developer in training (Technologist in Software Analysis and Development, SENA) and I build complete web systems from start to finish: database, API, interface and deployment. What matters most to me is that what I build is secure, tested and explainable, so every project ships with automated tests, documentation and a Docker setup that lets anyone run it.
 
-My largest project is an access control system for a training center that I built twice: first in Flask, then as a Spring Boot API with a React front end. I migrated the tests one by one from one version to the other to prove that both behave the same.
+One of my largest projects is an access control system for a training center that I built twice: first in Flask, then as a Spring Boot API with a React front end. I migrated the tests one by one from one version to the other to prove that both behave the same.
 
 ### What I can do for you
 
@@ -43,16 +61,19 @@ Every project goes through the same stages, and each stage leaves something that
 
 ### Projects
 
-**[Access Control API](https://github.com/cristianyesidmquiroga-tech/spring)** · Java 21, Spring Boot 3, PostgreSQL, Flyway, Testcontainers
+**[BUStra](https://bustra.proyecto.sbs/)** · Go, PostgreSQL, Flask, Redis, Cloudflare, Chrome extension (live site, private code)
+Colombian job-search site. It reads the job alerts people already get by email (LinkedIn, Computrabajo), merges them without duplicates, compares each offer with their CV and shows what they meet and what is missing; it also drafts the cover letter. The Go API handles accounts with an authenticator app, CVs, plans paid by bank transfer, support cases and reminder emails before a plan expires. The Flask web app uses Redis for login limits and Cloudflare Turnstile against bots, and a Cloudflare Worker forwards alert emails to the API. The Chrome extension (Manifest V3, only asks for `storage`) fills the job portal form in one click and lets the person review and send. CI runs on self-hosted runners in my VPS.
+
+**[Access Control API](https://github.com/cristianyesidmquiroga-tech/spring)** · Java, Spring Boot, PostgreSQL, Flyway, Testcontainers
 Layered REST API for a training center: digital ID cards, gate control, class attendance, messaging and support. It has JWT login, permissions derived from role and position, email verification, password recovery, CAPTCHA, rate limiting and an audit log. 73 endpoints, 7 database migrations, 700+ automated tests and a CI pipeline with coverage reports.
 
-**[Access Control Frontend](https://github.com/cristianyesidmquiroga-tech/react)** · React 19, Vite
+**[Access Control Frontend](https://github.com/cristianyesidmquiroga-tech/react)** · React, Vite
 Single-page app for that API: protected routes, navigation by role, QR scanner for the gate, bulk user import, light and dark themes and accessible modals.
 
 **[Access Control System (Flask)](https://github.com/cristianyesidmquiroga-tech/porteria-2)** · Flask, PostgreSQL, Docker, Coolify
 The first full-stack version of the same system: admin, gate and coordination modules, digital ID cards with barcodes, monthly Excel backups and user manuals. 800+ tests organized by module, by role and by view.
 
-**[Clothing Store (React + Supabase)](https://github.com/cristianyesidmquiroga-tech/supabase)** · React 19, TypeScript, Tailwind 4, Supabase
+**[Clothing Store (React + Supabase)](https://github.com/cristianyesidmquiroga-tech/supabase)** · React, TypeScript, Tailwind, Supabase
 Public catalog and admin panel with three roles. Permissions are enforced in the interface and in the database with Row Level Security. Docker + Nginx, with a deployment guide for Coolify.
 
 **[Clothing Store (Flask)](https://github.com/cristianyesidmquiroga-tech/Vshein)** · Flask, SQLAlchemy, Alembic, Pytest
@@ -61,25 +82,26 @@ Landing page rendered from the database, hidden admin route with roles and an in
 **[Weather Monitoring](https://github.com/cristianyesidmquiroga-tech/Sistema_Clima)** · Flask, PostgreSQL, Redis, Docker Compose
 Collects weather stations, hydrological alerts and daily NASA satellite imagery, and publishes a dashboard, a rain map and a weekly regional report with PDF and Excel exports. Seven containers with memory and CPU limits.
 
-**[Agricultural Observatory of Gran Santander](https://observatoriogransantander.co/)** · Python, Django 5.2, PostgreSQL, Redis, Docker (live site, built for ASPROVEL)
+**[Agricultural Observatory of Gran Santander](https://observatoriogransantander.co/)** · Python, Django, PostgreSQL, Redis, Docker (live site, built for ASPROVEL)
 Public site with a map, indicators and downloadable CSV and XLSX data. More than 5,500 producers visited in 69 municipalities. One privacy module publishes only municipality aggregates, never personal data, and is covered by tests.
 
-**[AgroGestión](https://agrogestion.proyecto.sbs/)** · FastAPI, PostgreSQL 16, SQLAlchemy 2.0, React, Flutter (live site)
+**[AgroGestión](https://agrogestion.proyecto.sbs/)** · FastAPI, PostgreSQL, SQLAlchemy, React, Flutter (live site)
 Crop and farm management: plantings, labour, inputs, harvests and cash flow, usable from a phone even without signal. [Code](https://github.com/cristianyesidmquiroga-tech/agrogestion).
 
 ### Stack
 
 | Area | Tools |
 |---|---|
-| Backend | Spring Boot 3 (Security, JPA), Flask, SQLAlchemy, REST, JWT, RBAC, rate limiting, OpenAPI |
-| Frontend | React 19, Vite, TypeScript, Tailwind CSS, Context API, custom hooks |
+| Backend | Go, Spring Boot (Security, JPA), Flask, SQLAlchemy, REST, JWT, RBAC, rate limiting, OpenAPI |
+| Frontend | React, Vite, TypeScript, Tailwind CSS, Context API, custom hooks |
 | Data | PostgreSQL, MySQL, Redis, Supabase (RLS), Flyway and Alembic migrations |
-| DevOps | Docker, Docker Compose, GitHub Actions, Coolify, Traefik, Nginx |
-| Quality | JUnit 5, Mockito, Testcontainers, JaCoCo, Pytest, Vitest, OWASP-based checklists |
+| DevOps | Docker, Docker Compose, GitHub Actions (self-hosted runners), Coolify, Traefik, Nginx, Cloudflare (Turnstile, Workers) |
+| Quality | JUnit 5, Mockito, Testcontainers, JaCoCo, Pytest, go test, Vitest, OWASP-based checklists |
+| Blockchain | Solidity, Hardhat, OpenZeppelin, ethers, Slither |
 
 ### Right now
 
-I study at SENA (ADSO) in the afternoons and I am looking for a junior developer role, my work placement (etapa práctica) or an apprenticeship contract. I can work mornings now, from 7:00 to 11:00 Colombia time (13:00-17:00 in Spain in winter, 14:00-18:00 in summer), and full time from 26 April 2027. Remote, or on-site in Bogotá or Bucaramanga. I am learning blockchain (smart contracts with Hardhat and OpenZeppelin) and I run my own VPS to publish my projects.
+I study at SENA (ADSO) in the afternoons and, as a junior developer, I am looking for my work placement (etapa práctica, also possible as an apprenticeship contract) to complete my studies. I can work mornings now, from 7:00 to 11:00 Colombia time (13:00-17:00 in Spain in winter, 14:00-18:00 in summer), and full time from 26 April 2027. Remote, or on-site in Bogotá or Bucaramanga. Right now I am building BUStra (Go, Flask and a Chrome extension). I am learning blockchain (Solidity contracts with Hardhat and OpenZeppelin) and I run my own VPS to publish my projects, with my own GitHub Actions runners.
 
 ### Contact
 
@@ -87,15 +109,29 @@ Email: [cristianyesidmquiroga@gmail.com](mailto:cristianyesidmquiroga@gmail.com)
 
 </details>
 
----
+<img src="img/divisor.svg" width="100%" alt="">
 
-## Sobre mí
+## Sobre mí <img src="img/iconos/brote.svg" height="30" alt="">
+
+<img align="right" src="img/programando.svg" width="45%" alt="Persona programando en su escritorio">
+
+- Desarrollador **full-stack** en formación: Tecnólogo en Análisis y Desarrollo de Software (SENA).
+- Construyo sistemas completos: base de datos, API, interfaz y despliegue con Docker.
+- Ahora construyo [BUStra](https://bustra.proyecto.sbs/), una web para buscar empleo: API en Go, web en Flask y extensión de Chrome.
+- Hice dos veces un control de acceso, en Flask y en Spring Boot + React, con más de 1.500 pruebas entre las dos versiones.
+- En línea: [bustra.proyecto.sbs](https://bustra.proyecto.sbs/), [esena.proyecto.sbs](https://esena.proyecto.sbs/auth/login), [nuestroclima.co](https://nuestroclima.co/), [Observatorio Gran Santander](https://observatoriogransantander.co/) y [AgroGestión](https://agrogestion.proyecto.sbs/).
+- Aprendo blockchain (Solidity, Hardhat, OpenZeppelin) y administro mi propio VPS con runners propios de GitHub Actions.
+- Soy desarrollador junior y busco prácticas para completar mis estudios y seguir construyendo software.
+
+<br clear="right">
 
 Soy desarrollador full-stack en formación (Tecnólogo en Análisis y Desarrollo de Software, SENA) y construyo sistemas web completos de principio a fin: base de datos, API, interfaz y despliegue. Lo que más me importa es que lo que hago sea seguro, esté probado y se pueda explicar; por eso cada proyecto trae pruebas automáticas, documentación y una configuración Docker para que cualquiera pueda ponerlo a correr.
 
-Mi proyecto más grande es un sistema de control de acceso para un centro de formación que construí dos veces: primero en Flask y después como API en Spring Boot con frontend en React. Migré las pruebas una por una de una versión a la otra para comprobar que las dos se comportan igual.
+Uno de mis proyectos más grandes es un sistema de control de acceso para un centro de formación que construí dos veces: primero en Flask y después como API en Spring Boot con frontend en React. Migré las pruebas una por una de una versión a la otra para comprobar que las dos se comportan igual.
 
-## Qué puedo hacer por ti
+<img src="img/divisor.svg" width="100%" alt="">
+
+## Qué puedo hacer por ti <img src="img/iconos/llave.svg" height="30" alt="">
 
 - Páginas y sitios web para negocios, con panel de administración.
 - Aplicaciones web a la medida y APIs REST.
@@ -104,9 +140,13 @@ Mi proyecto más grande es un sistema de control de acceso para un centro de for
 - Automatización de reportes en Excel y PDF.
 - Corrección de errores, revisión de código y revisión de seguridad.
 
-## Cómo trabajo
+<img src="img/divisor.svg" width="100%" alt="">
+
+## Cómo trabajo <img src="img/iconos/engranaje.svg" height="30" alt="">
 
 Cada proyecto pasa por las mismas etapas, y cada etapa deja algo que se puede revisar.
+
+<p align="center"><img src="img/pasos.svg" width="100%" alt="Analizo, investigo, planeo, construyo, audito y entrego"></p>
 
 1. **Analizo.** Defino qué se va a construir, para quién, por qué y qué hace falta. Si algo no está claro, lo pregunto antes de programar. Resultado: requisitos escritos.
 2. **Investigo.** Busco ideas, miro cómo resuelven el problema otros sistemas parecidos y comparo opciones (tecnologías, estructura, riesgos). Resultado: decisiones con una razón detrás.
@@ -115,18 +155,30 @@ Cada proyecto pasa por las mismas etapas, y cada etapa deja algo que se puede re
 5. **Audito cada vista.** Trato cada pantalla como una pequeña auditoría de seguridad. Reviso qué rol puede entrar, qué datos recibe y qué pasa si alguien envía datos manipulados: permisos por rol, validación en el servidor, inyección, sesiones y cookies, límite de peticiones y manejo de secretos. Después pruebo la vista con todos los perfiles de usuario, tanto lo que permite como lo que debe negar.
 6. **Documento y entrego.** La estructura, el despliegue y la operación quedan escritos para que otra persona pueda correr el proyecto con `docker compose up`.
 
-## Proyectos
+<img src="img/divisor.svg" width="100%" alt="">
 
-**[API de control de acceso](https://github.com/cristianyesidmquiroga-tech/spring)** · Java 21, Spring Boot 3, PostgreSQL, Flyway, Testcontainers
+## Proyectos <img src="img/iconos/carpeta.svg" height="30" alt="">
+
+<p align="center">
+  <a href="https://bustra.proyecto.sbs/"><img src="img/proyectos/bustra.svg" width="49%" alt="BUStra: web para buscar empleo"></a>
+  <a href="https://github.com/cristianyesidmquiroga-tech/spring"><img src="img/proyectos/acceso.svg" width="49%" alt="Control de acceso en Spring Boot, React y Flask"></a>
+  <a href="https://nuestroclima.co/"><img src="img/proyectos/clima.svg" width="49%" alt="Monitoreo del clima"></a>
+  <a href="https://observatoriogransantander.co/"><img src="img/proyectos/observatorio.svg" width="49%" alt="Observatorio Agropecuario del Gran Santander"></a>
+</p>
+
+**[BUStra](https://bustra.proyecto.sbs/)** · Go, PostgreSQL, Flask, Redis, Cloudflare, extensión de Chrome (sitio en línea, código privado)
+Web colombiana para buscar empleo. Lee las alertas de empleo que la persona ya recibe en su correo (LinkedIn, Computrabajo), las junta sin repetir, las compara con su hoja de vida y le dice qué cumple y qué le falta en cada oferta; también arma la carta para postular. La API en Go maneja cuentas con app autenticadora, hoja de vida, planes con pago por transferencia, casos de ayuda y correos de aviso antes de que venza el plan. La web en Flask usa Redis para limitar intentos y Cloudflare Turnstile contra bots, y un Worker de Cloudflare pasa a la API los correos de alertas. La extensión de Chrome (Manifest V3, solo pide `storage`) llena el formulario del portal con un clic y deja que la persona revise y envíe. El CI corre en runners propios dentro de mi VPS.
+
+**[API de control de acceso](https://github.com/cristianyesidmquiroga-tech/spring)** · Java, Spring Boot, PostgreSQL, Flyway, Testcontainers
 API REST por capas para un centro de formación: carnet digital, control de portería, asistencia a clase, mensajería y soporte. Tiene login con JWT, permisos que salen del rol y el cargo, verificación de correo, recuperación de contraseña, CAPTCHA, límite de peticiones y registro de auditoría. 73 endpoints, 7 migraciones de base de datos, más de 700 pruebas automáticas y un pipeline de CI con informes de cobertura.
 
-**[Frontend de control de acceso](https://github.com/cristianyesidmquiroga-tech/react)** · React 19, Vite
+**[Frontend de control de acceso](https://github.com/cristianyesidmquiroga-tech/react)** · React, Vite
 Aplicación de una sola página para esa API: rutas protegidas, navegación según el rol, escáner QR para la portería, importación masiva de usuarios, tema claro y oscuro y modales accesibles.
 
 **[Sistema de control de acceso (Flask)](https://github.com/cristianyesidmquiroga-tech/porteria-2)** · Flask, PostgreSQL, Docker, Coolify
 La primera versión full-stack del mismo sistema: módulos de administración, portería y coordinación, carnets digitales con código de barras, respaldos mensuales en Excel y manuales de usuario. Más de 800 pruebas organizadas por módulo, por rol y por vista.
 
-**[Tienda de ropa (React + Supabase)](https://github.com/cristianyesidmquiroga-tech/supabase)** · React 19, TypeScript, Tailwind 4, Supabase
+**[Tienda de ropa (React + Supabase)](https://github.com/cristianyesidmquiroga-tech/supabase)** · React, TypeScript, Tailwind, Supabase
 Catálogo público y panel administrativo con tres roles. Los permisos se aplican en la interfaz y en la base de datos con Row Level Security. Docker + Nginx, con guía de despliegue en Coolify.
 
 **[Tienda de ropa (Flask)](https://github.com/cristianyesidmquiroga-tech/Vshein)** · Flask, SQLAlchemy, Alembic, Pytest
@@ -135,44 +187,77 @@ Landing renderizada desde la base de datos, ruta de administración oculta con r
 **[Monitoreo del clima](https://github.com/cristianyesidmquiroga-tech/Sistema_Clima)** · Flask, PostgreSQL, Redis, Docker Compose
 Recoge estaciones meteorológicas, alertas hidrológicas e imágenes satelitales diarias de la NASA, y publica un panel, un mapa de lluvias y un reporte semanal de la región con exportación a PDF y Excel. Siete contenedores con límites de memoria y CPU.
 
-**[Observatorio Agropecuario del Gran Santander](https://observatoriogransantander.co/)** · Python, Django 5.2, PostgreSQL, Redis, Docker (sitio en línea, hecho para ASPROVEL)
+**[Observatorio Agropecuario del Gran Santander](https://observatoriogransantander.co/)** · Python, Django, PostgreSQL, Redis, Docker (sitio en línea, hecho para ASPROVEL)
 Sitio público con mapa, indicadores y datos descargables en CSV y XLSX. Más de 5.500 productores visitados en 69 municipios. Un único módulo de privacidad publica solo agregados por municipio, nunca datos de personas, y está cubierto por pruebas.
 
-**[AgroGestión](https://agrogestion.proyecto.sbs/)** · FastAPI, PostgreSQL 16, SQLAlchemy 2.0, React, Flutter (sitio en línea)
+**[AgroGestión](https://agrogestion.proyecto.sbs/)** · FastAPI, PostgreSQL, SQLAlchemy, React, Flutter (sitio en línea)
 Gestión de cultivos y finca: siembras, mano de obra, insumos, cosechas y flujo de caja, desde el celular y también sin señal. [Código](https://github.com/cristianyesidmquiroga-tech/agrogestion).
 
-## Stack
+<img src="img/divisor.svg" width="100%" alt="">
 
-<p>
-  <a href="https://dev.java"><img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="Java" title="Java"></a> <a href="https://spring.io/projects/spring-boot"><img src="https://skillicons.dev/icons?i=spring" width="48" height="48" alt="Spring Boot" title="Spring Boot"></a> <a href="https://www.python.org"><img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" title="Python"></a> <a href="https://flask.palletsprojects.com"><img src="https://skillicons.dev/icons?i=flask" width="48" height="48" alt="Flask" title="Flask"></a> <a href="https://react.dev"><img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" title="React"></a> <a href="https://www.typescriptlang.org"><img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript" title="TypeScript"></a> <a href="https://developer.mozilla.org/es/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" title="JavaScript"></a> <a href="https://vite.dev"><img src="https://skillicons.dev/icons?i=vite" width="48" height="48" alt="Vite" title="Vite"></a> <a href="https://tailwindcss.com"><img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind CSS" title="Tailwind CSS"></a><br>
-  <a href="https://www.postgresql.org"><img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL" title="PostgreSQL"></a> <a href="https://www.mysql.com"><img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL" title="MySQL"></a> <a href="https://redis.io"><img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis" title="Redis"></a> <a href="https://supabase.com"><img src="https://skillicons.dev/icons?i=supabase" width="48" height="48" alt="Supabase" title="Supabase"></a> <a href="https://www.docker.com"><img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" title="Docker"></a> <a href="https://nginx.org"><img src="https://skillicons.dev/icons?i=nginx" width="48" height="48" alt="Nginx" title="Nginx"></a> <a href="https://github.com"><img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub" title="GitHub"></a> <a href="https://github.com/features/actions"><img src="https://skillicons.dev/icons?i=githubactions" width="48" height="48" alt="GitHub Actions" title="GitHub Actions"></a> <a href="https://www.kernel.org"><img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" title="Linux"></a>
-</p>
+## Stack <img src="img/iconos/rayo.svg" height="30" alt="">
+
+<p align="center"><img src="img/stack.svg" width="100%" alt="Go, Java, Spring Boot, Python, Flask, Django, FastAPI, React, TypeScript, JavaScript, Tailwind CSS, PostgreSQL, Redis, Supabase, Docker, Nginx, Coolify, Cloudflare, GitHub Actions, Solidity, Linux y Pytest"></p>
 
 | Tecnología | Lo mejor que he hecho con ella |
 |---|---|
-| [Java 21](https://dev.java) | API con 73 endpoints y más de 700 pruebas automáticas; también un CRUD de cine con Servlets y JSP. |
-| [Spring Boot 3](https://spring.io/projects/spring-boot) | Seguridad con JWT y permisos por rol y cargo, 7 migraciones, documentación OpenAPI y CI con informes de cobertura, todo en una sola API. |
+| [Java](https://dev.java) | API con 73 endpoints y más de 700 pruebas automáticas; también un CRUD de cine con Servlets y JSP. |
+| [Spring Boot](https://spring.io/projects/spring-boot) | Seguridad con JWT y permisos por rol y cargo, 7 migraciones, documentación OpenAPI y CI con informes de cobertura, todo en una sola API. |
+| [Go](https://go.dev) | API de BUStra: cuentas, hoja de vida, pagos, casos de ayuda, alertas de empleo y comparación de cada oferta con la hoja de vida, con migraciones que se aplican al arrancar. |
 | [Python](https://www.python.org) | Base de dos sistemas en línea (carnets y clima) y de procesos automáticos que recogen datos de estaciones y satélites y generan reportes en Excel y PDF. |
-| [Flask](https://flask.palletsprojects.com) | Sistema de carnets con 11 roles y más de 800 pruebas, en línea en [esena.proyecto.sbs](https://esena.proyecto.sbs/auth/login), y monitoreo del clima en [nuestroclima.co](https://nuestroclima.co/). |
-| [React 19](https://react.dev) | Frontend con rutas protegidas por rol, escáner QR, importación masiva y modales accesibles, conectado a la API de Spring Boot. |
+| [Flask](https://flask.palletsprojects.com) | Web de BUStra en línea en [bustra.proyecto.sbs](https://bustra.proyecto.sbs/); sistema de carnets con 11 roles y más de 800 pruebas, en línea en [esena.proyecto.sbs](https://esena.proyecto.sbs/auth/login), y monitoreo del clima en [nuestroclima.co](https://nuestroclima.co/). |
+| [React](https://react.dev) | Frontend con rutas protegidas por rol, escáner QR, importación masiva y modales accesibles, conectado a la API de Spring Boot. |
 | [TypeScript](https://www.typescriptlang.org) | Panel de una tienda con tres roles y pruebas en Vitest para sus permisos. |
-| [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) | Vistas interactivas del sistema de carnets, con un archivo por vista. |
+| [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) | Extensión de Chrome de BUStra (Manifest V3) que llena formularios de empleo con un clic, y vistas interactivas del sistema de carnets, con un archivo por vista. |
 | [Vite](https://vite.dev) | Compila los frontends en React y los deja listos para Docker. |
-| [Tailwind CSS](https://tailwindcss.com) | Interfaz responsive de la tienda de ropa (versión 4). |
-| [PostgreSQL](https://www.postgresql.org) | Base de datos de los sistemas en línea, con migraciones versionadas (Flyway y Alembic) y pruebas en CI contra PostgreSQL 16. |
+| [Tailwind CSS](https://tailwindcss.com) | Interfaz responsive de la tienda de ropa. |
+| [PostgreSQL](https://www.postgresql.org) | Base de datos de los sistemas en línea, con migraciones versionadas (Flyway y Alembic) y pruebas en CI contra PostgreSQL. |
 | [MySQL](https://www.mysql.com) | CRUD de cine en Java EE. |
 | [Redis](https://redis.io) | Caché del monitoreo del clima para aliviar las consultas costosas. |
 | [Supabase](https://supabase.com) | Autenticación, almacenamiento de imágenes y permisos con Row Level Security: las reglas se cumplen también en la base de datos. |
 | [Docker](https://www.docker.com) | Siete contenedores con límites de memoria y CPU en el sistema del clima, y despliegue con Coolify en los demás. |
 | [Nginx](https://nginx.org) | Sirve la tienda ya compilada, con redirección para la SPA y cabeceras de seguridad. |
 | [GitHub](https://github.com) | Seis repositorios destacados, cada uno con README, descripción y topics. |
-| [GitHub Actions](https://github.com/features/actions) | Cada push ejecuta las pruebas: Testcontainers con PostgreSQL en Spring y pytest contra PostgreSQL 16 en Flask. |
+| [GitHub Actions](https://github.com/features/actions) | Cada push ejecuta las pruebas: Testcontainers con PostgreSQL en Spring y pytest contra PostgreSQL en Flask. En BUStra corren en runners propios dentro de mi VPS. |
+| [Cloudflare](https://www.cloudflare.com) | Turnstile contra bots en los formularios de BUStra y un Worker que pasa a la API los correos de alertas de empleo. |
+| [Solidity](https://soliditylang.org) | Contratos de estudio con Hardhat y OpenZeppelin: un registro de huellas con sellado firmado (EIP-712) y un contrato de garantía, revisados con Slither. |
 | [Linux](https://www.kernel.org) | Base de las imágenes Docker de mis proyectos. |
 
-## Ahora mismo
+<img src="img/divisor.svg" width="100%" alt="">
 
-Estudio en el SENA (ADSO) por las tardes y busco un puesto como desarrollador junior, mi etapa práctica o un contrato de aprendizaje. Desde ya puedo trabajar por las mañanas, de 7:00 a 11:00 hora de Colombia (13:00-17:00 en España en invierno y 14:00-18:00 en verano), y tengo tiempo completo desde el 26 de abril de 2027. Remoto, o presencial en Bogotá o Bucaramanga. Estoy aprendiendo blockchain (contratos inteligentes con Hardhat y OpenZeppelin) y administro mi propio VPS para publicar mis proyectos.
+## Ahora mismo <img src="img/iconos/ahora.svg" height="30" alt="">
 
-## Contacto
+Estudio en el SENA (ADSO) por las tardes y, como desarrollador junior, busco mi etapa práctica (también puede ser por contrato de aprendizaje) para completar mis estudios. Desde ya puedo trabajar por las mañanas, de 7:00 a 11:00 hora de Colombia (13:00-17:00 en España en invierno y 14:00-18:00 en verano), y tengo tiempo completo desde el 26 de abril de 2027. Remoto, o presencial en Bogotá o Bucaramanga. Ahora mismo construyo BUStra (Go, Flask y una extensión de Chrome). Estoy aprendiendo blockchain (contratos en Solidity con Hardhat y OpenZeppelin) y administro mi propio VPS para publicar mis proyectos, con runners propios de GitHub Actions.
+
+<img src="img/divisor.svg" width="100%" alt="">
+
+## Actividad <img src="img/iconos/grafica.svg" height="30" alt="">
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/salida/profile-3d-contrib/profile-night-rainbow.svg">
+    <img src="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/salida/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="Mis contribuciones en 3D">
+  </picture>
+</p>
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=cristianyesidmquiroga-tech&custom_title=Contribuciones%20de%20los%20%C3%BAltimos%2031%20d%C3%ADas&bg_color=00000000&color=8c959f&title_color=1a5fb4&line=1a5fb4&point=d9480f&area=true&area_color=1a5fb4&hide_border=true" alt="Contribuciones de los últimos 31 días">
+</p>
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cristianyesidmquiroga-tech&layout=compact&langs_count=6&hide=dockerfile,batchfile&hide_border=true&bg_color=00000000&title_color=1a5fb4&text_color=8c959f&locale=es" alt="Lenguajes más usados en mis repositorios públicos">
+  <img height="165" src="https://streak-stats.demolab.com?user=cristianyesidmquiroga-tech&hide_border=true&background=00000000&ring=1A5FB4&fire=D9480F&currStreakLabel=1A5FB4&sideLabels=8C959F&dates=8C959F&currStreakNum=8C959F&sideNums=8C959F&locale=es" alt="Racha de contribuciones">
+</p>
+
+<img src="img/divisor.svg" width="100%" alt="">
+
+## Contacto <img src="img/iconos/sobre.svg" height="30" alt="">
 
 Correo: [cristianyesidmquiroga@gmail.com](mailto:cristianyesidmquiroga@gmail.com). Respondo en menos de 24 horas.
+
+<p align="center">
+  <a href="mailto:cristianyesidmquiroga@gmail.com"><img src="https://img.shields.io/badge/Escr%C3%ADbeme-cristianyesidmquiroga%40gmail.com-1a5fb4?style=for-the-badge&logo=gmail&logoColor=white" alt="Escríbeme"></a>
+  <a href="https://github.com/cristianyesidmquiroga-tech"><img src="https://img.shields.io/badge/GitHub-cristianyesidmquiroga--tech-0b2a4a?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+</p>
+
+<p align="center"><img src="img/pie.svg" width="100%" alt="Gracias por pasar por aquí"></p>

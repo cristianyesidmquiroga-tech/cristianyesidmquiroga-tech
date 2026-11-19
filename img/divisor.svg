@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 12" width="860" height="12" preserveAspectRatio="none" aria-hidden="true">
+<style>.luz{animation:m 4s ease-in-out infinite}@keyframes m{from{transform:translateX(-260px)}to{transform:translateX(860px)}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#1a5fb4" stop-opacity="0"/><stop offset=".5" stop-color="#2da44e"/><stop offset="1" stop-color="#d9480f" stop-opacity="0"/></linearGradient></defs>
+<rect y="5" width="860" height="2" rx="1" fill="#8c959f" opacity=".3"/>
+<rect class="luz" y="4" width="260" height="4" rx="2" fill="url(#g)"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" role="img" aria-label="Brote que crece">
+<style>
+.tallo{transform-box:fill-box;transform-origin:bottom center;animation:crecer 4s ease-out infinite}
+@keyframes crecer{0%{transform:scaleY(0)}35%,85%{transform:scaleY(1)}100%{transform:scaleY(0)}}
+.hoja{transform-box:fill-box;animation:abrir 4s ease-out infinite}
+.izq{transform-origin:right bottom}
+.der{transform-origin:left bottom}
+@keyframes abrir{0%,25%{transform:scale(0)}50%,85%{transform:scale(1)}100%{transform:scale(0)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<path d="M10 28h20l-3 10H13z" fill="#bc4c00"/>
+<rect x="8" y="25" width="24" height="4" rx="2" fill="#d9480f"/>
+<rect class="tallo" x="19" y="9" width="2.5" height="16" rx="1.2" fill="#1a7f37"/>
+<path class="hoja izq" d="M20 15c-6 0-10-3-11-8 6 0 10 3 11 8z" fill="#2da44e"/>
+<path class="hoja der" d="M21 12c1-5 5-8 11-8-1 5-5 8-11 8z" fill="#2da44e"/>
+</svg>

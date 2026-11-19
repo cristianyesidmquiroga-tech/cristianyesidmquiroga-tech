@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true">
+<style>.carta{animation:s 2.6s ease-in-out infinite}@keyframes s{0%,100%{transform:translateY(8px)}50%{transform:translateY(-4px)}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect class="carta" x="10" y="10" width="20" height="16" rx="2" fill="#fff" stroke="#8c959f"/><rect class="carta" x="13" y="14" width="12" height="2" fill="#1a5fb4"/>
+<path d="M5 17l15 10 15-10v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z" fill="#1a5fb4"/><path d="M5 35l12-10M35 35L23 25" stroke="#0b2a4a" stroke-width="1.5"/>
+</svg>
