@@ -42,7 +42,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           mkdir -p "$RUNNER_TEMP/salida/profile-3d-contrib"
-          cp profile-3d-contrib/profile-green-animate.svg profile-3d-contrib/profile-night-rainbow.svg "$RUNNER_TEMP/salida/profile-3d-contrib/"
+          cp profile-3d-contrib/profile-green-animate.svg profile-3d-contrib/profile-night-green.svg "$RUNNER_TEMP/salida/profile-3d-contrib/"
           rm -rf profile-3d-contrib
           if git ls-remote --exit-code --heads origin salida >/dev/null; then
             git switch salida
