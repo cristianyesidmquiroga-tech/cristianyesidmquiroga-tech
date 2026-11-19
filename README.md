@@ -235,7 +235,7 @@ Estudio en el SENA (ADSO) por las tardes y, como desarrollador junior, busco mi 
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/salida/profile-3d-contrib/profile-night-rainbow.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/salida/profile-3d-contrib/profile-night-green.svg">
     <img src="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/salida/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="Mis contribuciones en 3D">
   </picture>
 </p>
