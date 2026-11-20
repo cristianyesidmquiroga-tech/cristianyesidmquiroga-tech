@@ -154,7 +154,7 @@ Crop and farm management: plantings, labour, inputs, harvests and cash flow, usa
 
 ### Right now <img src="img/iconos/ahora.svg" height="28" alt="">
 
-I study at SENA (ADSO) in the afternoons and, as a junior developer, I am looking for my work placement (etapa práctica, also possible as an apprenticeship contract) to complete my studies. I can work mornings now, from 7:00 to 11:00 Colombia time (13:00-17:00 in Spain in winter, 14:00-18:00 in summer), and full time from 26 April 2027. Remote, or on-site in Bogotá or Bucaramanga. Right now I am building BUStra (Go, Flask and a Chrome extension). I am learning blockchain (Solidity contracts with Hardhat and OpenZeppelin) and I run my own VPS to publish my projects, with my own GitHub Actions runners.
+I study at SENA (ADSO) in the afternoons and, as a junior developer, I am looking for my work placement (etapa práctica, also possible as an apprenticeship contract) to complete my studies. I can work mornings now, from 7:00 to 11:00 Colombia time, and full time from 26 April 2027. Remote, or on-site in Bogotá or Bucaramanga. Right now I am building BUStra (Go, Flask and a Chrome extension). I am learning blockchain (Solidity contracts with Hardhat and OpenZeppelin) and I run my own VPS to publish my projects, with my own GitHub Actions runners.
 
 <img src="img/divisor.svg" width="100%" alt="">
 
@@ -289,7 +289,7 @@ Gestión de cultivos y finca: siembras, mano de obra, insumos, cosechas y flujo 
 
 ## Ahora mismo <img src="img/iconos/ahora.svg" height="30" alt="">
 
-Estudio en el SENA (ADSO) por las tardes y, como desarrollador junior, busco mi etapa práctica (también puede ser por contrato de aprendizaje) para completar mis estudios. Desde ya puedo trabajar por las mañanas, de 7:00 a 11:00 hora de Colombia (13:00-17:00 en España en invierno y 14:00-18:00 en verano), y tengo tiempo completo desde el 26 de abril de 2027. Remoto, o presencial en Bogotá o Bucaramanga. Ahora mismo construyo BUStra (Go, Flask y una extensión de Chrome). Estoy aprendiendo blockchain (contratos en Solidity con Hardhat y OpenZeppelin) y administro mi propio VPS para publicar mis proyectos, con runners propios de GitHub Actions.
+Estudio en el SENA (ADSO) por las tardes y, como desarrollador junior, busco mi etapa práctica (también puede ser por contrato de aprendizaje) para completar mis estudios. Desde ya puedo trabajar por las mañanas, de 7:00 a 11:00 hora de Colombia, y tengo tiempo completo desde el 26 de abril de 2027. Remoto, o presencial en Bogotá o Bucaramanga. Ahora mismo construyo BUStra (Go, Flask y una extensión de Chrome). Estoy aprendiendo blockchain (contratos en Solidity con Hardhat y OpenZeppelin) y administro mi propio VPS para publicar mis proyectos, con runners propios de GitHub Actions.
 
 <img src="img/divisor.svg" width="100%" alt="">
 
