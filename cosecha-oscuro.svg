@@ -472,6 +472,8 @@
 <rect class="cultivo" style="animation-delay:-8.6s" x="748" y="76" width="11" height="11" rx="2" fill="#39d353"/>
 <rect x="748" y="90" width="11" height="11" rx="2" fill="#4a3826"/>
 <rect class="cultivo" style="animation-delay:-8.12s" x="748" y="90" width="11" height="11" rx="2" fill="#0e4429"/>
+<rect x="748" y="104" width="11" height="11" rx="2" fill="#4a3826"/>
+<rect class="cultivo" style="animation-delay:-1.44s" x="748" y="104" width="11" height="11" rx="2" fill="#0e4429"/>
 <g class="tractor"><g class="voltear">
 <circle class="humo" cx="5" cy="-12" r="2.2" fill="#6e7681"/>
 <circle class="humo h2" cx="5" cy="-12" r="2.2" fill="#6e7681"/>
