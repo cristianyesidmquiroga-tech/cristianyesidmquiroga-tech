@@ -147,7 +147,7 @@ Crop and farm management: plantings, labour, inputs, harvests and cash flow, usa
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cristianyesidmquiroga-tech&layout=compact&langs_count=6&hide=dockerfile,batchfile&hide_border=true&bg_color=00000000&title_color=1a5fb4&text_color=8c959f&locale=en" alt="Most used languages in my public repositories">
-  <img height="165" src="https://streak-stats.demolab.com?user=cristianyesidmquiroga-tech&hide_border=true&background=00000000&ring=1A5FB4&fire=D9480F&currStreakLabel=1A5FB4&sideLabels=8C959F&dates=8C959F&currStreakNum=8C959F&sideNums=8C959F&locale=en" alt="Contribution streak">
+  <img height="165" src="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/salida/racha-en.svg" alt="Contribution streak">
 </p>
 
 <img src="img/divisor.svg" width="100%" alt="">
@@ -308,7 +308,7 @@ Estudio en el SENA (ADSO) por las tardes y, como desarrollador junior, busco mi 
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cristianyesidmquiroga-tech&layout=compact&langs_count=6&hide=dockerfile,batchfile&hide_border=true&bg_color=00000000&title_color=1a5fb4&text_color=8c959f&locale=es" alt="Lenguajes más usados en mis repositorios públicos">
-  <img height="165" src="https://streak-stats.demolab.com?user=cristianyesidmquiroga-tech&hide_border=true&background=00000000&ring=1A5FB4&fire=D9480F&currStreakLabel=1A5FB4&sideLabels=8C959F&dates=8C959F&currStreakNum=8C959F&sideNums=8C959F&locale=es" alt="Racha de contribuciones">
+  <img height="165" src="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/salida/racha-es.svg" alt="Racha de contribuciones">
 </p>
 
 <img src="img/divisor.svg" width="100%" alt="">

@@ -20,4 +20,4 @@
 
 - `img/`: animaciones SVG propias del perfil (hero, terminal, tarjetas, íconos)
 - `pruebas/`: pruebas con `node --test`
-- `scripts/`: generador del banner; el workflow Graficos lo publica en la rama `salida`
+- `scripts/`: generadores del banner y de la tarjeta de racha; el workflow Graficos lo publica en la rama `salida`
