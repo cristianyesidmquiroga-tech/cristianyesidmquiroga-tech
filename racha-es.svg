@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495" height="195" role="img" aria-label="Racha de contribuciones: 1">
+<style>
+text{font-family:"Segoe UI",Ubuntu,"Helvetica Neue",sans-serif;text-anchor:middle}
+.num{font-size:28px;font-weight:700;fill:#8c959f}
+.tit{font-size:14px;fill:#8c959f}
+.det{font-size:12px;fill:#8c959f}
+.centro .num{fill:#8c959f}
+.centro .tit{fill:#1a5fb4;font-weight:700}
+.col{opacity:0;animation:entrar .6s ease-out forwards}
+.c2{animation-delay:.2s}.c3{animation-delay:.4s}
+.aro{stroke-dasharray:252;stroke-dashoffset:252;animation:aro 1s ease-out .2s forwards}
+@keyframes entrar{to{opacity:1}}
+@keyframes aro{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){.col,.aro{animation:none;opacity:1;stroke-dashoffset:0}}
+</style>
+<line x1="165" y1="28" x2="165" y2="170" stroke="#8c959f" stroke-opacity=".4"/>
+<line x1="330" y1="28" x2="330" y2="170" stroke="#8c959f" stroke-opacity=".4"/>
+<g class="col">
+<text x="82.5" y="92" class="num">1.957</text>
+<text x="82.5" y="128" class="tit">Contribuciones totales</text>
+<text x="82.5" y="150" class="det">9 oct 2025 - Presente</text>
+</g>
+<g class="col c2 centro">
+<circle class="aro" cx="247.5" cy="71" r="40" fill="none" stroke="#1a5fb4" stroke-width="5" transform="rotate(-90 247.5 71)"/>
+<path d="M247.5 19c4 5 7 8 7 12.5a7 7 0 0 1-14 0c0-2.5 1.2-4.5 3-6 .3 2.4 1.6 3.6 3 3.6 1.4-2.8.8-6.4 1-10.1z" fill="#d9480f"/>
+<text x="247.5" y="82" class="num">1</text>
+<text x="247.5" y="140" class="tit">Racha actual</text>
+<text x="247.5" y="162" class="det">23 nov 2026</text>
+</g>
+<g class="col c3">
+<text x="412.5" y="92" class="num">15</text>
+<text x="412.5" y="128" class="tit">Racha más larga</text>
+<text x="412.5" y="150" class="det">7 nov 2026 - 21 nov 2026</text>
+</g>
+</svg>
