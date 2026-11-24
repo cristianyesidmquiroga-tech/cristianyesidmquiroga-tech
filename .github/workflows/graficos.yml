@@ -2,11 +2,12 @@ name: Graficos
 
 on:
   schedule:
-    - cron: "0 11 * * *"
+    # Cada 3 horas: el cron de GitHub se atrasa y las cifras quedaban viejas.
+    - cron: "17 */3 * * *"
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["scripts/banner.js", ".github/workflows/graficos.yml"]
+    paths: ["scripts/banner.js", "scripts/racha.js", ".github/workflows/graficos.yml"]
 
 permissions:
   contents: read
@@ -34,6 +35,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/banner.js "$USUARIO" "$RUNNER_TEMP/salida"
+      - name: Generar racha
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/racha.js "$USUARIO" "$RUNNER_TEMP/salida"
       - name: Generar grafico 3D
         uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
         env:
@@ -74,7 +79,7 @@ jobs:
             git switch --orphan salida
           fi
           cp -r "$RUNNER_TEMP"/salida/. .
-          git add cosecha.svg cosecha-oscuro.svg profile-3d-contrib
+          git add cosecha.svg cosecha-oscuro.svg racha-es.svg racha-en.svg profile-3d-contrib
           if git diff --cached --quiet; then
             echo "sin cambios en los graficos"
           else
