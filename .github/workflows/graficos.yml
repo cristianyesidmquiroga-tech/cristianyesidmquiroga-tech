@@ -2,8 +2,8 @@ name: Graficos
 
 on:
   schedule:
-    # Cada 3 horas: el cron de GitHub se atrasa y las cifras quedaban viejas.
-    - cron: "17 */3 * * *"
+    # Cada hora: el cron de GitHub se salta corridas y las cifras quedaban viejas.
+    - cron: "17 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
