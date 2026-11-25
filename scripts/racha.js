@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
+const ayuda = 'uso: GITHUB_TOKEN=... node scripts/racha.js <usuario> [carpeta]';
+
 const textos = {
   es: { total: 'Contribuciones totales', actual: 'Racha actual', larga: 'Racha más larga', hoy: 'Presente', etiqueta: 'Racha de contribuciones' },
   en: { total: 'Total contributions', actual: 'Current streak', larga: 'Longest streak', hoy: 'Present', etiqueta: 'Contribution streak' },
@@ -101,7 +103,7 @@ ${columna(412.5, datos.larga.dias, t.larga, rango(datos.larga, idioma, hoy, t), 
 async function main() {
   const [usuario, carpeta = 'salida'] = process.argv.slice(2);
   const token = process.env.GITHUB_TOKEN;
-  if (!usuario || !token) throw new Error('uso: GITHUB_TOKEN=... node scripts/racha.js <usuario> [carpeta]');
+  if (!usuario || !token) throw new Error(ayuda);
   const ahora = new Date();
   const hoy = ahora.toISOString().slice(0, 10);
   const datos = calcular(await traerDias(usuario, token, ahora), hoy);
@@ -113,7 +115,7 @@ async function main() {
 if (require.main === module) {
   main().catch((e) => {
     console.error(e.message);
-    process.exit(1);
+    process.exit(2);
   });
 }
 
