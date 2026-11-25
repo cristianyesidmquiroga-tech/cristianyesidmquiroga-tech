@@ -16,7 +16,7 @@ text{font-family:"Segoe UI",Ubuntu,"Helvetica Neue",sans-serif;text-anchor:middl
 <line x1="165" y1="28" x2="165" y2="170" stroke="#8c959f" stroke-opacity=".4"/>
 <line x1="330" y1="28" x2="330" y2="170" stroke="#8c959f" stroke-opacity=".4"/>
 <g class="col">
-<text x="82.5" y="92" class="num">2.259</text>
+<text x="82.5" y="92" class="num">2.301</text>
 <text x="82.5" y="128" class="tit">Contribuciones totales</text>
 <text x="82.5" y="150" class="det">9 oct 2025 - Presente</text>
 </g>
