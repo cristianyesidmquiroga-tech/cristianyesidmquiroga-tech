@@ -6,4 +6,4 @@ Errores que ya pasaron en este repo y cómo evitarlos. Una línea por caso, con 
 - 2026-11-18: CodeQL de JavaScript falla si el repo aun no tiene archivos .js → el workflow entra en el mismo PR que el primer codigo.
 - 2026-11-19: el 3D arcoiris oscuro trae unas 1.400 animaciones y Chrome pinta ruido al hacer scroll → usar profile-night-green.
 - 2026-11-19: una action de terceros no corre en el mismo trabajo que tiene permiso de escritura → generar con contents: read y publicar en otro trabajo.
-- 2026-11-23: streak-stats guarda su imagen 24 horas y el cron diario corria con horas de atraso, asi que las cifras no cuadraban con GitHub → la tarjeta de racha se genera aqui y Graficos corre cada 3 horas.
+- 2026-11-23: streak-stats guarda su imagen 24 horas y el cron diario corria con horas de atraso, asi que las cifras no cuadraban con GitHub → la tarjeta de racha se genera aqui y Graficos corre cada hora (2026-11-25: con cada 3 horas GitHub solo la corria unas 2 veces al dia).
