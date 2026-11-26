@@ -21,7 +21,14 @@
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/hero-en-oscuro.svg"><img src="img/hero-en.svg" width="100%" alt="Cristian Muñoz, junior full-stack developer: data, API and interface with security layers and blockchain seals. Open to internships."></picture></p>
 
-<p align="center"><b>Junior Full-Stack Developer</b> · Go · Java (Spring Boot) · Python (Flask) · React · PostgreSQL · Docker. Vélez, Santander, Colombia (UTC-5) · On-site in Bogotá or Bucaramanga, remote or hybrid · Spanish (native), English intermediate (B1).</p>
+<p align="center"><b>Junior Full-Stack Developer</b> · Go · Java (Spring Boot) · Python (Flask) · React · PostgreSQL · Docker</p>
+<p align="center">Vélez, Santander, Colombia (UTC-5) · On-site in Bogotá or Bucaramanga, remote or hybrid · Spanish (native) · English intermediate (B1)</p>
+
+<p align="center">
+  <a href="mailto:cristianyesidmquiroga@gmail.com"><img src="https://img.shields.io/badge/Email-contact-0b2a4a?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <img src="https://img.shields.io/badge/Status-looking%20for%20an%20internship-1a7f37?style=flat-square" alt="Looking for an internship">
+  <img src="https://img.shields.io/badge/Response-within%2024h-1a5fb4?style=flat-square" alt="Response within 24 hours">
+</p>
 
 <img src="img/divisor.svg" width="100%" alt="">
 
@@ -56,10 +63,10 @@ One of my largest projects is an access control system for a training center tha
 </p>
 
 **[BUStra](https://bustra.proyecto.sbs/)** · Go, PostgreSQL, Flask, Redis, Cloudflare, Chrome extension (live site, private code)
-Colombian job-search site. It reads the job alerts people already get by email (LinkedIn, Computrabajo), merges them without duplicates, compares each offer with their CV and shows what they meet and what is missing; it also drafts the cover letter. The Go API handles accounts with an authenticator app, CVs, plans paid by bank transfer, support cases and reminder emails before a plan expires. The Flask web app uses Redis for login limits and Cloudflare Turnstile against bots, and a Cloudflare Worker forwards alert emails to the API. The Chrome extension (Manifest V3, only asks for `storage`) fills the job portal form in one click and lets the person review and send. CI runs on self-hosted runners in my VPS.
+Colombian job-search site. It reads the job alerts people already get by email (LinkedIn, Computrabajo), merges them without duplicates, compares each offer with their CV and shows which requirements they meet and which they are missing; it also drafts the cover letter. The Go API handles accounts with an authenticator app, CVs, plans paid by bank transfer, support cases and reminder emails before a plan expires. The Flask web app uses Redis for login limits and Cloudflare Turnstile against bots, and a Cloudflare Worker forwards alert emails to the API. The Chrome extension (Manifest V3, only asks for `storage`) fills the job portal form in one click and lets the person review and send. CI runs on self-hosted runners on my VPS.
 
 **[Agricultural Observatory of Gran Santander](https://observatoriogransantander.co/)** · Python, Django, PostgreSQL, Redis, Docker (live site, built for ASPROVEL)
-Public site with a map, indicators and downloadable CSV and XLSX data. More than 5,500 producers visited in 69 municipalities. One privacy module publishes only municipality aggregates, never personal data, and is covered by tests.
+Public site with a map, indicators and downloadable CSV and XLSX data. More than 5,500 producers visited in 69 municipalities. A single privacy module publishes only municipality aggregates, never personal data, and is covered by tests.
 
 **[Access Control API](https://github.com/cristianyesidmquiroga-tech/spring)** · Java, Spring Boot, PostgreSQL, Flyway, Testcontainers
 Layered REST API for a training center: digital ID cards, gate control, class attendance, messaging and support. It has JWT login, permissions derived from role and position, email verification, password recovery, CAPTCHA, rate limiting and an audit log. 73 endpoints, 7 database migrations, 700+ automated tests and a CI pipeline with coverage reports.
@@ -71,10 +78,10 @@ Single-page app for that API: protected routes, navigation by role, QR scanner f
 The first full-stack version of the same system: admin, gate and coordination modules, digital ID cards with barcodes, monthly Excel backups and user manuals. 800+ tests organized by module, by role and by view.
 
 **[Weather Monitoring](https://nuestroclima.co/)** · Flask, Go, React, PostgreSQL, Redis, Docker Compose (live site)
-Collects weather stations, hydrological alerts and daily NASA satellite imagery, and publishes a dashboard, a rain map and a weekly regional report with PDF and Excel exports. Seven containers with memory and CPU limits. It now adds a [Go API](https://github.com/cristianyesidmquiroga-tech/nuestroclima-backend-go) (chi and pgx) and a [React dashboard](https://github.com/cristianyesidmquiroga-tech/nuestroclima-frontend-react), both built on one shared OpenAPI contract. [Code](https://github.com/cristianyesidmquiroga-tech/Sistema_Clima).
+Collects data from weather stations, hydrological alerts and daily NASA satellite imagery, and publishes a dashboard, a rain map and a weekly regional report with PDF and Excel exports. Seven containers with memory and CPU limits. It now adds a [Go API](https://github.com/cristianyesidmquiroga-tech/nuestroclima-backend-go) (chi and pgx) and a [React dashboard](https://github.com/cristianyesidmquiroga-tech/nuestroclima-frontend-react), both built on one shared OpenAPI contract. [Code](https://github.com/cristianyesidmquiroga-tech/Sistema_Clima).
 
 **[AgroGestión](https://agrogestion.proyecto.sbs/)** · FastAPI, PostgreSQL, SQLAlchemy, React, Flutter (live site)
-Crop and farm management: plantings, labour, inputs, harvests and cash flow, usable from a phone even without signal. [Code](https://github.com/cristianyesidmquiroga-tech/agrogestion).
+Crop and farm management: plantings, labor, inputs, harvests and cash flow, usable from a phone even without signal. [Code](https://github.com/cristianyesidmquiroga-tech/agrogestion).
 
 <img src="img/divisor.svg" width="100%" alt="">
 
@@ -82,14 +89,27 @@ Crop and farm management: plantings, labour, inputs, harvests and cash flow, usa
 
 <p align="center"><img src="img/stack.svg" width="100%" alt="Go, Java, Spring Boot, Python, Flask, Django, FastAPI, React, TypeScript, JavaScript, Tailwind CSS, PostgreSQL, Redis, Supabase, Docker, Nginx, Coolify, Cloudflare, GitHub Actions, Solidity, Linux and Pytest"></p>
 
-| Area | Tools |
+| Technology | The best I have built with it |
 |---|---|
-| Backend | Go, Spring Boot (Security, JPA), Flask, SQLAlchemy, REST, JWT, RBAC, rate limiting, OpenAPI |
-| Frontend | React, Vite, JavaScript, Context API, custom hooks |
-| Data | PostgreSQL, MySQL, Redis, Flyway and Alembic migrations |
-| DevOps | My own Linux VPS with Coolify (20+ apps and databases), Docker, Docker Compose, GitHub Actions (nine self-hosted runners), Traefik, Cloudflare (Turnstile, Workers) |
-| Quality and security | JUnit 5, Mockito, Testcontainers, JaCoCo, Pytest, go test, Vitest, CodeQL (Security and quality), Dependabot, Gitleaks, OWASP-based checklists |
-| Blockchain | Solidity, Hardhat, OpenZeppelin, ethers, Slither |
+| [Go](https://go.dev) | The BUStra API: accounts, CVs, payments, support cases, job alerts and matching each offer against the CV, with migrations that run on startup. |
+| [Java](https://dev.java) | An API with 73 endpoints and more than 700 automated tests; also a cinema CRUD with Servlets and JSP. |
+| [Spring Boot](https://spring.io/projects/spring-boot) | JWT security with permissions by role and position, 7 migrations, OpenAPI documentation and CI with coverage reports, all in one API. |
+| [Python](https://www.python.org) | The base of two live systems (ID cards and weather) and of automated jobs that collect station and satellite data and generate Excel and PDF reports. |
+| [Flask](https://flask.palletsprojects.com) | The BUStra web app, live at [bustra.proyecto.sbs](https://bustra.proyecto.sbs/); an ID card system with 11 roles and more than 800 tests, live at [esena.proyecto.sbs](https://esena.proyecto.sbs/auth/login); and weather monitoring at [nuestroclima.co](https://nuestroclima.co/). |
+| [React](https://react.dev) | A front end with role-protected routes, a QR scanner, bulk import and accessible modals, connected to the Spring Boot API. |
+| [PostgreSQL](https://www.postgresql.org) | The database of my live systems, with versioned migrations (Flyway and Alembic) and CI tests against PostgreSQL. |
+| [Docker](https://www.docker.com) | Everything I publish runs in containers on my own VPS with Coolify: more than 20 apps and databases, and nine CI runners. The weather system uses seven containers with memory and CPU limits. |
+| [Linux](https://www.kernel.org) | I run my own Linux VPS: I deploy my projects there with Coolify, and it hosts my GitHub Actions runners. |
+| [GitHub Actions](https://github.com/features/actions) | Every push runs the tests: Testcontainers with PostgreSQL in Spring and pytest against PostgreSQL in Flask. BUStra runs them on self-hosted runners on my VPS. |
+| [CodeQL](https://codeql.github.com) | "Security and quality" analysis on every PR in my repositories; nothing is merged with open alerts. |
+| [Dependabot](https://docs.github.com/en/code-security/dependabot) | Keeps dependencies and actions up to date in 15 repositories; I review every PR before merging it. |
+| [Gitleaks](https://gitleaks.io) | Scans every PR for secrets so no key reaches the history. |
+| [Cloudflare](https://www.cloudflare.com) | Turnstile against bots on the BUStra forms and a Worker that forwards job alert emails to the API. |
+| [Redis](https://redis.io) | Cache for the weather monitoring system to ease expensive queries. |
+| [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | The BUStra Chrome extension (Manifest V3), which fills job forms in one click, and the interactive views of the ID card system, one file per view. |
+| [Vite](https://vite.dev) | Builds the React front ends and gets them ready for Docker. |
+| [Solidity](https://soliditylang.org) | Study contracts with Hardhat and OpenZeppelin: a fingerprint registry with signed sealing (EIP-712) and an escrow contract, reviewed with Slither. |
+| [MySQL](https://www.mysql.com) | A cinema CRUD in Java EE. |
 
 <img src="img/divisor.svg" width="100%" alt="">
 
@@ -201,7 +221,7 @@ Aplicación de una sola página para esa API: rutas protegidas, navegación seg�
 La primera versión full-stack del mismo sistema: módulos de administración, portería y coordinación, carnets digitales con código de barras, respaldos mensuales en Excel y manuales de usuario. Más de 800 pruebas organizadas por módulo, por rol y por vista.
 
 **[Monitoreo del clima](https://nuestroclima.co/)** · Flask, Go, React, PostgreSQL, Redis, Docker Compose (sitio en línea)
-Recoge estaciones meteorológicas, alertas hidrológicas e imágenes satelitales diarias de la NASA, y publica un panel, un mapa de lluvias y un reporte semanal de la región con exportación a PDF y Excel. Siete contenedores con límites de memoria y CPU. Ahora suma una [API en Go](https://github.com/cristianyesidmquiroga-tech/nuestroclima-backend-go) (chi y pgx) y un [panel en React](https://github.com/cristianyesidmquiroga-tech/nuestroclima-frontend-react), las dos sobre un mismo contrato OpenAPI. [Código](https://github.com/cristianyesidmquiroga-tech/Sistema_Clima).
+Recoge datos de estaciones meteorológicas, alertas hidrológicas e imágenes satelitales diarias de la NASA, y publica un panel, un mapa de lluvias y un reporte semanal de la región con exportación a PDF y Excel. Siete contenedores con límites de memoria y CPU. Ahora suma una [API en Go](https://github.com/cristianyesidmquiroga-tech/nuestroclima-backend-go) (chi y pgx) y un [panel en React](https://github.com/cristianyesidmquiroga-tech/nuestroclima-frontend-react), los dos sobre un mismo contrato OpenAPI. [Código](https://github.com/cristianyesidmquiroga-tech/Sistema_Clima).
 
 **[AgroGestión](https://agrogestion.proyecto.sbs/)** · FastAPI, PostgreSQL, SQLAlchemy, React, Flutter (sitio en línea)
 Gestión de cultivos y finca: siembras, mano de obra, insumos, cosechas y flujo de caja, desde el celular y también sin señal. [Código](https://github.com/cristianyesidmquiroga-tech/agrogestion).
