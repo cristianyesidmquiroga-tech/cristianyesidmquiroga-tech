@@ -47,7 +47,8 @@
 - Right now I am building [BUStra](https://bustra.proyecto.sbs/), a job-search site: Go API, Flask web app and a Chrome extension.
 - I built an access control system twice, in Flask and in Spring Boot + React, with more than 1,500 tests across both versions.
 - Live: [bustra.proyecto.sbs](https://bustra.proyecto.sbs/), [esena.proyecto.sbs](https://esena.proyecto.sbs/auth/login), [nuestroclima.co](https://nuestroclima.co/), [Observatorio Gran Santander](https://observatoriogransantander.co/) and [AgroGestión](https://agrogestion.proyecto.sbs/).
-- Learning blockchain (Solidity, Hardhat, OpenZeppelin) and running my own VPS with my own GitHub Actions runners.
+- I run my own Linux VPS with Coolify (20+ apps and databases) and self-hosted GitHub Actions runners; every PR goes through CodeQL, Dependabot and Gitleaks.
+- Learning blockchain: Solidity contracts with Hardhat and OpenZeppelin.
 - Junior developer looking for a work placement to complete my studies and keep building software.
 
 <br clear="right">
@@ -108,14 +109,8 @@ Single-page app for that API: protected routes, navigation by role, QR scanner f
 **[Access Control System (Flask)](https://github.com/cristianyesidmquiroga-tech/porteria-2)** · Flask, PostgreSQL, Docker, Coolify
 The first full-stack version of the same system: admin, gate and coordination modules, digital ID cards with barcodes, monthly Excel backups and user manuals. 800+ tests organized by module, by role and by view.
 
-**[Clothing Store (React + Supabase)](https://github.com/cristianyesidmquiroga-tech/supabase)** · React, TypeScript, Tailwind, Supabase
-Public catalog and admin panel with three roles. Permissions are enforced in the interface and in the database with Row Level Security. Docker + Nginx, with a deployment guide for Coolify.
-
-**[Clothing Store (Flask)](https://github.com/cristianyesidmquiroga-tech/Vshein)** · Flask, SQLAlchemy, Alembic, Pytest
-Landing page rendered from the database, hidden admin route with roles and an inventory with stock alerts.
-
-**[Weather Monitoring](https://github.com/cristianyesidmquiroga-tech/Sistema_Clima)** · Flask, PostgreSQL, Redis, Docker Compose
-Collects weather stations, hydrological alerts and daily NASA satellite imagery, and publishes a dashboard, a rain map and a weekly regional report with PDF and Excel exports. Seven containers with memory and CPU limits.
+**[Weather Monitoring](https://nuestroclima.co/)** · Flask, Go, React, PostgreSQL, Redis, Docker Compose (live site)
+Collects weather stations, hydrological alerts and daily NASA satellite imagery, and publishes a dashboard, a rain map and a weekly regional report with PDF and Excel exports. Seven containers with memory and CPU limits. It now adds a [Go API](https://github.com/cristianyesidmquiroga-tech/nuestroclima-backend-go) (chi and pgx) and a [React dashboard](https://github.com/cristianyesidmquiroga-tech/nuestroclima-frontend-react), both built on one shared OpenAPI contract. [Code](https://github.com/cristianyesidmquiroga-tech/Sistema_Clima).
 
 **[AgroGestión](https://agrogestion.proyecto.sbs/)** · FastAPI, PostgreSQL, SQLAlchemy, React, Flutter (live site)
 Crop and farm management: plantings, labour, inputs, harvests and cash flow, usable from a phone even without signal. [Code](https://github.com/cristianyesidmquiroga-tech/agrogestion).
@@ -129,10 +124,10 @@ Crop and farm management: plantings, labour, inputs, harvests and cash flow, usa
 | Area | Tools |
 |---|---|
 | Backend | Go, Spring Boot (Security, JPA), Flask, SQLAlchemy, REST, JWT, RBAC, rate limiting, OpenAPI |
-| Frontend | React, Vite, TypeScript, Tailwind CSS, Context API, custom hooks |
-| Data | PostgreSQL, MySQL, Redis, Supabase (RLS), Flyway and Alembic migrations |
-| DevOps | Docker, Docker Compose, GitHub Actions (self-hosted runners), Coolify, Traefik, Nginx, Cloudflare (Turnstile, Workers) |
-| Quality | JUnit 5, Mockito, Testcontainers, JaCoCo, Pytest, go test, Vitest, OWASP-based checklists |
+| Frontend | React, Vite, JavaScript, Context API, custom hooks |
+| Data | PostgreSQL, MySQL, Redis, Flyway and Alembic migrations |
+| DevOps | My own Linux VPS with Coolify (20+ apps and databases), Docker, Docker Compose, GitHub Actions (nine self-hosted runners), Traefik, Cloudflare (Turnstile, Workers) |
+| Quality and security | JUnit 5, Mockito, Testcontainers, JaCoCo, Pytest, go test, Vitest, CodeQL (Security and quality), Dependabot, Gitleaks, OWASP-based checklists |
 | Blockchain | Solidity, Hardhat, OpenZeppelin, ethers, Slither |
 
 <img src="img/divisor.svg" width="100%" alt="">
@@ -182,7 +177,8 @@ Email: [cristianyesidmquiroga@gmail.com](mailto:cristianyesidmquiroga@gmail.com)
 - Ahora construyo [BUStra](https://bustra.proyecto.sbs/), una web para buscar empleo: API en Go, web en Flask y extensión de Chrome.
 - Hice dos veces un control de acceso, en Flask y en Spring Boot + React, con más de 1.500 pruebas entre las dos versiones.
 - En línea: [bustra.proyecto.sbs](https://bustra.proyecto.sbs/), [esena.proyecto.sbs](https://esena.proyecto.sbs/auth/login), [nuestroclima.co](https://nuestroclima.co/), [Observatorio Gran Santander](https://observatoriogransantander.co/) y [AgroGestión](https://agrogestion.proyecto.sbs/).
-- Aprendo blockchain (Solidity, Hardhat, OpenZeppelin) y administro mi propio VPS con runners propios de GitHub Actions.
+- Administro mi propio VPS Linux con Coolify (más de 20 aplicaciones y bases de datos) y runners propios de GitHub Actions; cada PR pasa por CodeQL, Dependabot y Gitleaks.
+- Aprendo blockchain: contratos en Solidity con Hardhat y OpenZeppelin.
 - Soy desarrollador junior y busco prácticas para completar mis estudios y seguir construyendo software.
 
 <br clear="right">
@@ -243,14 +239,8 @@ Aplicación de una sola página para esa API: rutas protegidas, navegación seg�
 **[Sistema de control de acceso (Flask)](https://github.com/cristianyesidmquiroga-tech/porteria-2)** · Flask, PostgreSQL, Docker, Coolify
 La primera versión full-stack del mismo sistema: módulos de administración, portería y coordinación, carnets digitales con código de barras, respaldos mensuales en Excel y manuales de usuario. Más de 800 pruebas organizadas por módulo, por rol y por vista.
 
-**[Tienda de ropa (React + Supabase)](https://github.com/cristianyesidmquiroga-tech/supabase)** · React, TypeScript, Tailwind, Supabase
-Catálogo público y panel administrativo con tres roles. Los permisos se aplican en la interfaz y en la base de datos con Row Level Security. Docker + Nginx, con guía de despliegue en Coolify.
-
-**[Tienda de ropa (Flask)](https://github.com/cristianyesidmquiroga-tech/Vshein)** · Flask, SQLAlchemy, Alembic, Pytest
-Landing renderizada desde la base de datos, ruta de administración oculta con roles e inventario con alertas de stock.
-
-**[Monitoreo del clima](https://github.com/cristianyesidmquiroga-tech/Sistema_Clima)** · Flask, PostgreSQL, Redis, Docker Compose
-Recoge estaciones meteorológicas, alertas hidrológicas e imágenes satelitales diarias de la NASA, y publica un panel, un mapa de lluvias y un reporte semanal de la región con exportación a PDF y Excel. Siete contenedores con límites de memoria y CPU.
+**[Monitoreo del clima](https://nuestroclima.co/)** · Flask, Go, React, PostgreSQL, Redis, Docker Compose (sitio en línea)
+Recoge estaciones meteorológicas, alertas hidrológicas e imágenes satelitales diarias de la NASA, y publica un panel, un mapa de lluvias y un reporte semanal de la región con exportación a PDF y Excel. Siete contenedores con límites de memoria y CPU. Ahora suma una [API en Go](https://github.com/cristianyesidmquiroga-tech/nuestroclima-backend-go) (chi y pgx) y un [panel en React](https://github.com/cristianyesidmquiroga-tech/nuestroclima-frontend-react), las dos sobre un mismo contrato OpenAPI. [Código](https://github.com/cristianyesidmquiroga-tech/Sistema_Clima).
 
 **[AgroGestión](https://agrogestion.proyecto.sbs/)** · FastAPI, PostgreSQL, SQLAlchemy, React, Flutter (sitio en línea)
 Gestión de cultivos y finca: siembras, mano de obra, insumos, cosechas y flujo de caja, desde el celular y también sin señal. [Código](https://github.com/cristianyesidmquiroga-tech/agrogestion).
@@ -263,27 +253,25 @@ Gestión de cultivos y finca: siembras, mano de obra, insumos, cosechas y flujo 
 
 | Tecnología | Lo mejor que he hecho con ella |
 |---|---|
+| [Go](https://go.dev) | API de BUStra: cuentas, hoja de vida, pagos, casos de ayuda, alertas de empleo y comparación de cada oferta con la hoja de vida, con migraciones que se aplican al arrancar. |
 | [Java](https://dev.java) | API con 73 endpoints y más de 700 pruebas automáticas; también un CRUD de cine con Servlets y JSP. |
 | [Spring Boot](https://spring.io/projects/spring-boot) | Seguridad con JWT y permisos por rol y cargo, 7 migraciones, documentación OpenAPI y CI con informes de cobertura, todo en una sola API. |
-| [Go](https://go.dev) | API de BUStra: cuentas, hoja de vida, pagos, casos de ayuda, alertas de empleo y comparación de cada oferta con la hoja de vida, con migraciones que se aplican al arrancar. |
 | [Python](https://www.python.org) | Base de dos sistemas en línea (carnets y clima) y de procesos automáticos que recogen datos de estaciones y satélites y generan reportes en Excel y PDF. |
 | [Flask](https://flask.palletsprojects.com) | Web de BUStra en línea en [bustra.proyecto.sbs](https://bustra.proyecto.sbs/); sistema de carnets con 11 roles y más de 800 pruebas, en línea en [esena.proyecto.sbs](https://esena.proyecto.sbs/auth/login), y monitoreo del clima en [nuestroclima.co](https://nuestroclima.co/). |
 | [React](https://react.dev) | Frontend con rutas protegidas por rol, escáner QR, importación masiva y modales accesibles, conectado a la API de Spring Boot. |
-| [TypeScript](https://www.typescriptlang.org) | Panel de una tienda con tres roles y pruebas en Vitest para sus permisos. |
+| [PostgreSQL](https://www.postgresql.org) | Base de datos de los sistemas en línea, con migraciones versionadas (Flyway y Alembic) y pruebas en CI contra PostgreSQL. |
+| [Docker](https://www.docker.com) | Todo lo que publico corre en contenedores en mi propio VPS con Coolify: más de 20 aplicaciones y bases de datos, y nueve runners de CI. El sistema del clima usa siete contenedores con límites de memoria y CPU. |
+| [Linux](https://www.kernel.org) | Administro mi propio VPS Linux: ahí despliego mis proyectos con Coolify y corren los runners de GitHub Actions. |
+| [GitHub Actions](https://github.com/features/actions) | Cada push ejecuta las pruebas: Testcontainers con PostgreSQL en Spring y pytest contra PostgreSQL en Flask. En BUStra corren en runners propios dentro de mi VPS. |
+| [CodeQL](https://codeql.github.com) | Análisis "Security and quality" en cada PR de mis repos; no se fusiona nada con alertas abiertas. |
+| [Dependabot](https://docs.github.com/es/code-security/dependabot) | Actualiza dependencias y actions en 15 repositorios; reviso cada PR antes de fusionarlo. |
+| [Gitleaks](https://gitleaks.io) | Busca secretos en cada PR para que ninguna clave llegue al historial. |
+| [Cloudflare](https://www.cloudflare.com) | Turnstile contra bots en los formularios de BUStra y un Worker que pasa a la API los correos de alertas de empleo. |
+| [Redis](https://redis.io) | Caché del monitoreo del clima para aliviar las consultas costosas. |
 | [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) | Extensión de Chrome de BUStra (Manifest V3) que llena formularios de empleo con un clic, y vistas interactivas del sistema de carnets, con un archivo por vista. |
 | [Vite](https://vite.dev) | Compila los frontends en React y los deja listos para Docker. |
-| [Tailwind CSS](https://tailwindcss.com) | Interfaz responsive de la tienda de ropa. |
-| [PostgreSQL](https://www.postgresql.org) | Base de datos de los sistemas en línea, con migraciones versionadas (Flyway y Alembic) y pruebas en CI contra PostgreSQL. |
-| [MySQL](https://www.mysql.com) | CRUD de cine en Java EE. |
-| [Redis](https://redis.io) | Caché del monitoreo del clima para aliviar las consultas costosas. |
-| [Supabase](https://supabase.com) | Autenticación, almacenamiento de imágenes y permisos con Row Level Security: las reglas se cumplen también en la base de datos. |
-| [Docker](https://www.docker.com) | Siete contenedores con límites de memoria y CPU en el sistema del clima, y despliegue con Coolify en los demás. |
-| [Nginx](https://nginx.org) | Sirve la tienda ya compilada, con redirección para la SPA y cabeceras de seguridad. |
-| [GitHub](https://github.com) | Seis repositorios destacados, cada uno con README, descripción y topics. |
-| [GitHub Actions](https://github.com/features/actions) | Cada push ejecuta las pruebas: Testcontainers con PostgreSQL en Spring y pytest contra PostgreSQL en Flask. En BUStra corren en runners propios dentro de mi VPS. |
-| [Cloudflare](https://www.cloudflare.com) | Turnstile contra bots en los formularios de BUStra y un Worker que pasa a la API los correos de alertas de empleo. |
 | [Solidity](https://soliditylang.org) | Contratos de estudio con Hardhat y OpenZeppelin: un registro de huellas con sellado firmado (EIP-712) y un contrato de garantía, revisados con Slither. |
-| [Linux](https://www.kernel.org) | Base de las imágenes Docker de mis proyectos. |
+| [MySQL](https://www.mysql.com) | CRUD de cine en Java EE. |
 
 <img src="img/divisor.svg" width="100%" alt="">
 
