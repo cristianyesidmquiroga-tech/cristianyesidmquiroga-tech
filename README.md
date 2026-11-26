@@ -88,13 +88,16 @@ Every project goes through the same stages, and each stage leaves something that
 
 <p align="center">
   <a href="https://bustra.proyecto.sbs/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/proyectos/bustra-en-oscuro.svg"><img src="img/proyectos/bustra-en.svg" width="49%" alt="BUStra: job-search site"></picture></a>
+  <a href="https://observatoriogransantander.co/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/proyectos/observatorio-en-oscuro.svg"><img src="img/proyectos/observatorio-en.svg" width="49%" alt="Agricultural Observatory of Gran Santander"></picture></a>
   <a href="https://esena.proyecto.sbs/auth/login"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/proyectos/acceso-en-oscuro.svg"><img src="img/proyectos/acceso-en.svg" width="49%" alt="Access control in Spring Boot, React and Flask"></picture></a>
   <a href="https://nuestroclima.co/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/proyectos/clima-en-oscuro.svg"><img src="img/proyectos/clima-en.svg" width="49%" alt="Weather monitoring"></picture></a>
-  <a href="https://observatoriogransantander.co/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/proyectos/observatorio-en-oscuro.svg"><img src="img/proyectos/observatorio-en.svg" width="49%" alt="Agricultural Observatory of Gran Santander"></picture></a>
 </p>
 
 **[BUStra](https://bustra.proyecto.sbs/)** · Go, PostgreSQL, Flask, Redis, Cloudflare, Chrome extension (live site, private code)
 Colombian job-search site. It reads the job alerts people already get by email (LinkedIn, Computrabajo), merges them without duplicates, compares each offer with their CV and shows what they meet and what is missing; it also drafts the cover letter. The Go API handles accounts with an authenticator app, CVs, plans paid by bank transfer, support cases and reminder emails before a plan expires. The Flask web app uses Redis for login limits and Cloudflare Turnstile against bots, and a Cloudflare Worker forwards alert emails to the API. The Chrome extension (Manifest V3, only asks for `storage`) fills the job portal form in one click and lets the person review and send. CI runs on self-hosted runners in my VPS.
+
+**[Agricultural Observatory of Gran Santander](https://observatoriogransantander.co/)** · Python, Django, PostgreSQL, Redis, Docker (live site, built for ASPROVEL)
+Public site with a map, indicators and downloadable CSV and XLSX data. More than 5,500 producers visited in 69 municipalities. One privacy module publishes only municipality aggregates, never personal data, and is covered by tests.
 
 **[Access Control API](https://github.com/cristianyesidmquiroga-tech/spring)** · Java, Spring Boot, PostgreSQL, Flyway, Testcontainers
 Layered REST API for a training center: digital ID cards, gate control, class attendance, messaging and support. It has JWT login, permissions derived from role and position, email verification, password recovery, CAPTCHA, rate limiting and an audit log. 73 endpoints, 7 database migrations, 700+ automated tests and a CI pipeline with coverage reports.
@@ -113,9 +116,6 @@ Landing page rendered from the database, hidden admin route with roles and an in
 
 **[Weather Monitoring](https://github.com/cristianyesidmquiroga-tech/Sistema_Clima)** · Flask, PostgreSQL, Redis, Docker Compose
 Collects weather stations, hydrological alerts and daily NASA satellite imagery, and publishes a dashboard, a rain map and a weekly regional report with PDF and Excel exports. Seven containers with memory and CPU limits.
-
-**[Agricultural Observatory of Gran Santander](https://observatoriogransantander.co/)** · Python, Django, PostgreSQL, Redis, Docker (live site, built for ASPROVEL)
-Public site with a map, indicators and downloadable CSV and XLSX data. More than 5,500 producers visited in 69 municipalities. One privacy module publishes only municipality aggregates, never personal data, and is covered by tests.
 
 **[AgroGestión](https://agrogestion.proyecto.sbs/)** · FastAPI, PostgreSQL, SQLAlchemy, React, Flutter (live site)
 Crop and farm management: plantings, labour, inputs, harvests and cash flow, usable from a phone even without signal. [Code](https://github.com/cristianyesidmquiroga-tech/agrogestion).
@@ -223,13 +223,16 @@ Cada proyecto pasa por las mismas etapas, y cada etapa deja algo que se puede re
 
 <p align="center">
   <a href="https://bustra.proyecto.sbs/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/proyectos/bustra-oscuro.svg"><img src="img/proyectos/bustra.svg" width="49%" alt="BUStra: web para buscar empleo"></picture></a>
+  <a href="https://observatoriogransantander.co/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/proyectos/observatorio-oscuro.svg"><img src="img/proyectos/observatorio.svg" width="49%" alt="Observatorio Agropecuario del Gran Santander"></picture></a>
   <a href="https://esena.proyecto.sbs/auth/login"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/proyectos/acceso-oscuro.svg"><img src="img/proyectos/acceso.svg" width="49%" alt="Control de acceso en Spring Boot, React y Flask"></picture></a>
   <a href="https://nuestroclima.co/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/proyectos/clima-oscuro.svg"><img src="img/proyectos/clima.svg" width="49%" alt="Monitoreo del clima"></picture></a>
-  <a href="https://observatoriogransantander.co/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/proyectos/observatorio-oscuro.svg"><img src="img/proyectos/observatorio.svg" width="49%" alt="Observatorio Agropecuario del Gran Santander"></picture></a>
 </p>
 
 **[BUStra](https://bustra.proyecto.sbs/)** · Go, PostgreSQL, Flask, Redis, Cloudflare, extensión de Chrome (sitio en línea, código privado)
 Web colombiana para buscar empleo. Lee las alertas de empleo que la persona ya recibe en su correo (LinkedIn, Computrabajo), las junta sin repetir, las compara con su hoja de vida y le dice qué cumple y qué le falta en cada oferta; también arma la carta para postular. La API en Go maneja cuentas con app autenticadora, hoja de vida, planes con pago por transferencia, casos de ayuda y correos de aviso antes de que venza el plan. La web en Flask usa Redis para limitar intentos y Cloudflare Turnstile contra bots, y un Worker de Cloudflare pasa a la API los correos de alertas. La extensión de Chrome (Manifest V3, solo pide `storage`) llena el formulario del portal con un clic y deja que la persona revise y envíe. El CI corre en runners propios dentro de mi VPS.
+
+**[Observatorio Agropecuario del Gran Santander](https://observatoriogransantander.co/)** · Python, Django, PostgreSQL, Redis, Docker (sitio en línea, hecho para ASPROVEL)
+Sitio público con mapa, indicadores y datos descargables en CSV y XLSX. Más de 5.500 productores visitados en 69 municipios. Un único módulo de privacidad publica solo agregados por municipio, nunca datos de personas, y está cubierto por pruebas.
 
 **[API de control de acceso](https://github.com/cristianyesidmquiroga-tech/spring)** · Java, Spring Boot, PostgreSQL, Flyway, Testcontainers
 API REST por capas para un centro de formación: carnet digital, control de portería, asistencia a clase, mensajería y soporte. Tiene login con JWT, permisos que salen del rol y el cargo, verificación de correo, recuperación de contraseña, CAPTCHA, límite de peticiones y registro de auditoría. 73 endpoints, 7 migraciones de base de datos, más de 700 pruebas automáticas y un pipeline de CI con informes de cobertura.
@@ -248,9 +251,6 @@ Landing renderizada desde la base de datos, ruta de administración oculta con r
 
 **[Monitoreo del clima](https://github.com/cristianyesidmquiroga-tech/Sistema_Clima)** · Flask, PostgreSQL, Redis, Docker Compose
 Recoge estaciones meteorológicas, alertas hidrológicas e imágenes satelitales diarias de la NASA, y publica un panel, un mapa de lluvias y un reporte semanal de la región con exportación a PDF y Excel. Siete contenedores con límites de memoria y CPU.
-
-**[Observatorio Agropecuario del Gran Santander](https://observatoriogransantander.co/)** · Python, Django, PostgreSQL, Redis, Docker (sitio en línea, hecho para ASPROVEL)
-Sitio público con mapa, indicadores y datos descargables en CSV y XLSX. Más de 5.500 productores visitados en 69 municipios. Un único módulo de privacidad publica solo agregados por municipio, nunca datos de personas, y está cubierto por pruebas.
 
 **[AgroGestión](https://agrogestion.proyecto.sbs/)** · FastAPI, PostgreSQL, SQLAlchemy, React, Flutter (sitio en línea)
 Gestión de cultivos y finca: siembras, mano de obra, insumos, cosechas y flujo de caja, desde el celular y también sin señal. [Código](https://github.com/cristianyesidmquiroga-tech/agrogestion).
