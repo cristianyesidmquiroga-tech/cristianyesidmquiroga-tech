@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["scripts/banner.js", "scripts/racha.js", ".github/workflows/graficos.yml"]
+    paths: ["scripts/racha.js", ".github/workflows/graficos.yml"]
 
 permissions:
   contents: read
@@ -31,10 +31,6 @@ jobs:
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
           node-version: 24.x
-      - name: Generar banner
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node scripts/banner.js "$USUARIO" "$RUNNER_TEMP/salida"
       - name: Generar racha
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -79,7 +75,7 @@ jobs:
             git switch --orphan salida
           fi
           cp -r "$RUNNER_TEMP"/salida/. .
-          git add cosecha.svg cosecha-oscuro.svg racha-es.svg racha-en.svg profile-3d-contrib
+          git add racha-es.svg racha-en.svg profile-3d-contrib
           if git diff --cached --quiet; then
             echo "sin cambios en los graficos"
           else

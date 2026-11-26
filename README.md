@@ -14,15 +14,6 @@
   <img src="https://img.shields.io/badge/Respuesta-en%2024h-1a5fb4?style=flat-square" alt="Respuesta en 24 horas">
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/salida/cosecha-oscuro.svg">
-    <img src="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/salida/cosecha.svg" width="100%" alt="Tractor que cosecha mi calendario de contribuciones">
-  </picture>
-</p>
-
-<p align="center"><img src="img/terminal.svg" width="100%" alt="Terminal: Cristian Muñoz, desarrollador junior full-stack que busca prácticas"></p>
-
 <details>
 <summary><b>Read this in English</b></summary>
 
@@ -31,10 +22,6 @@
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/main/img/hero-en-oscuro.svg"><img src="img/hero-en.svg" width="100%" alt="Cristian Muñoz, junior full-stack developer: data, API and interface with security layers and blockchain seals. Open to internships."></picture></p>
 
 <p align="center"><b>Junior Full-Stack Developer</b> · Go · Java (Spring Boot) · Python (Flask) · React · PostgreSQL · Docker. Vélez, Santander, Colombia (UTC-5) · On-site in Bogotá or Bucaramanga, remote or hybrid · Spanish (native), English intermediate (B1).</p>
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/salida/cosecha-oscuro.svg"><img src="https://raw.githubusercontent.com/cristianyesidmquiroga-tech/cristianyesidmquiroga-tech/salida/cosecha.svg" width="100%" alt="Tractor harvesting my contribution calendar"></picture></p>
-
-<p align="center"><img src="img/terminal-en.svg" width="100%" alt="Terminal: Cristian Muñoz, junior full-stack developer looking for an internship"></p>
 
 <img src="img/divisor.svg" width="100%" alt="">
 
