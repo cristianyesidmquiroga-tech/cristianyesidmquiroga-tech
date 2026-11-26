@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 270" width="420" height="270" role="img" aria-label="Access control: Built twice, in Flask and in Spring Boot with React, with more than 1,500 tests across both versions.">
 <style>text{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
 .s{fill:#1a5fb4;font-size:11.5px;font-weight:700;letter-spacing:1.6px}.t{fill:#f0f6fc;font-size:24px;font-weight:800;letter-spacing:-.5px}.d{fill:#c9d1d9;font-size:13.5px}.tag{fill:#c9d1d9;font-size:12px;font-weight:600}
-.est{fill:#c9d1d9;font-size:12px;font-weight:600}.acc{fill:#1a5fb4;font-size:12.5px;font-weight:700}
+.est{fill:#c9d1d9;font-size:12px;font-weight:600}.acc{fill:#2da44e;font-size:12.5px;font-weight:700}
 .luzBarra{animation:corre 4.2s cubic-bezier(.65,0,.35,1) infinite}@keyframes corre{0%{transform:translateX(-420px)}45%,55%{transform:translateX(0)}100%{transform:translateX(420px)}}
 .late{transform-box:fill-box;transform-origin:center;animation:late 1.6s ease-out infinite}@keyframes late{from{transform:scale(1);opacity:.8}to{transform:scale(2.6);opacity:0}}
 .flecha{animation:flecha 1.4s ease-in-out infinite}@keyframes flecha{50%{transform:translateX(4px)}}
@@ -44,10 +44,10 @@
 <text x="24" y="156" class="d">with more than 1,500 tests across both versions.</text>
 <rect x="24" y="186" width="101.2" height="26" rx="13" fill="#161b22" stroke="#30363d"/><text x="74.6" y="203" text-anchor="middle" class="tag">Spring Boot</text><rect x="133.2" y="186" width="58" height="26" rx="13" fill="#161b22" stroke="#30363d"/><text x="162.2" y="203" text-anchor="middle" class="tag">React</text><rect x="199.2" y="186" width="58" height="26" rx="13" fill="#161b22" stroke="#30363d"/><text x="228.2" y="203" text-anchor="middle" class="tag">Flask</text><rect x="265.2" y="186" width="43.6" height="26" rx="13" fill="#161b22" stroke="#30363d"/><text x="287" y="203" text-anchor="middle" class="tag">JWT</text>
 <line x1="24" y1="226" x2="396" y2="226" stroke="#30363d"/>
-<circle class="late" cx="30" cy="246" r="4" fill="#8b949e"/><circle cx="30" cy="246" r="4" fill="#8b949e"/>
-<text x="42" y="250" class="est">Open source</text>
-<text x="374" y="250" text-anchor="end" class="acc">View code</text>
-<path class="flecha" d="M380 246h12m-5-5 5 5-5 5" fill="none" stroke="#1a5fb4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle class="late" cx="30" cy="246" r="4" fill="#2da44e"/><circle cx="30" cy="246" r="4" fill="#2da44e"/>
+<text x="42" y="250" class="est">Live</text>
+<text x="374" y="250" text-anchor="end" class="acc">Visit site</text>
+<path class="flecha" d="M380 246h12m-5-5 5 5-5 5" fill="none" stroke="#2da44e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="1" y="1" width="418" height="268" rx="17" fill="none" stroke="#30363d" stroke-width="2"/>
 </g>
 </svg>
