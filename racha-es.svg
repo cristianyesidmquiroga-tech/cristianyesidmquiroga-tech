@@ -25,7 +25,7 @@ text{font-family:"Segoe UI",Ubuntu,"Helvetica Neue",sans-serif;text-anchor:middl
 <path d="M247.5 19c4 5 7 8 7 12.5a7 7 0 0 1-14 0c0-2.5 1.2-4.5 3-6 .3 2.4 1.6 3.6 3 3.6 1.4-2.8.8-6.4 1-10.1z" fill="#d9480f"/>
 <text x="247.5" y="82" class="num">3</text>
 <text x="247.5" y="140" class="tit">Racha actual</text>
-<text x="247.5" y="162" class="det">23 nov 2026 - Presente</text>
+<text x="247.5" y="162" class="det">23 nov 2026 - 25 nov 2026</text>
 </g>
 <g class="col c3">
 <text x="412.5" y="92" class="num">15</text>
