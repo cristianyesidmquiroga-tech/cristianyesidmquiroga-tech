@@ -18,6 +18,6 @@
 
 ## Estructura
 
-- `img/`: animaciones SVG propias del perfil (hero, terminal, tarjetas, íconos)
+- `img/`: animaciones SVG propias del perfil (hero, tarjetas, íconos)
 - `pruebas/`: pruebas con `node --test`
-- `scripts/`: generadores del banner y de la tarjeta de racha; el workflow Graficos lo publica en la rama `salida`
+- `scripts/`: generador de la tarjeta de racha; el workflow Graficos lo publica en la rama `salida`
