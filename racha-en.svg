@@ -16,7 +16,7 @@ text{font-family:"Segoe UI",Ubuntu,"Helvetica Neue",sans-serif;text-anchor:middl
 <line x1="165" y1="28" x2="165" y2="170" stroke="#8c959f" stroke-opacity=".4"/>
 <line x1="330" y1="28" x2="330" y2="170" stroke="#8c959f" stroke-opacity=".4"/>
 <g class="col">
-<text x="82.5" y="92" class="num">2,630</text>
+<text x="82.5" y="92" class="num">2,642</text>
 <text x="82.5" y="128" class="tit">Total contributions</text>
 <text x="82.5" y="150" class="det">Oct 9, 2025 - Present</text>
 </g>
@@ -25,7 +25,7 @@ text{font-family:"Segoe UI",Ubuntu,"Helvetica Neue",sans-serif;text-anchor:middl
 <path d="M247.5 19c4 5 7 8 7 12.5a7 7 0 0 1-14 0c0-2.5 1.2-4.5 3-6 .3 2.4 1.6 3.6 3 3.6 1.4-2.8.8-6.4 1-10.1z" fill="#d9480f"/>
 <text x="247.5" y="82" class="num">4</text>
 <text x="247.5" y="140" class="tit">Current streak</text>
-<text x="247.5" y="162" class="det">Nov 23, 2026 - Present</text>
+<text x="247.5" y="162" class="det">Nov 23, 2026 - Nov 26, 2026</text>
 </g>
 <g class="col c3">
 <text x="412.5" y="92" class="num">15</text>
